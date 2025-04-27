@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\Julio\\source\\repos\\PetScanner\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{365BB809-90EC-4D21-A256-E2349494A402}|PS.UI.Maui\\PS.UI.Maui.csproj|c:\\users\\julio\\source\\repos\\petscanner\\ps.ui.maui\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{365BB809-90EC-4D21-A256-E2349494A402}|PS.UI.Maui\\PS.UI.Maui.csproj|solutionrelative:ps.ui.maui\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{365BB809-90EC-4D21-A256-E2349494A402}|PS.UI.Maui\\PS.UI.Maui.csproj|c:\\users\\julio\\source\\repos\\petscanner\\ps.ui.maui\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{365BB809-90EC-4D21-A256-E2349494A402}|PS.UI.Maui\\PS.UI.Maui.csproj|solutionrelative:ps.ui.maui\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -19,6 +23,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "AppShell.xaml",
+              "DocumentMoniker": "C:\\Users\\Julio\\source\\repos\\PetScanner\\PS.UI.Maui\\AppShell.xaml",
+              "RelativeDocumentMoniker": "PS.UI.Maui\\AppShell.xaml",
+              "ToolTip": "C:\\Users\\Julio\\source\\repos\\PetScanner\\PS.UI.Maui\\AppShell.xaml",
+              "RelativeToolTip": "PS.UI.Maui\\AppShell.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-27T21:27:48.912Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "AppShell.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Julio\\source\\repos\\PetScanner\\PS.UI.Maui\\AppShell.xaml.cs",
               "RelativeDocumentMoniker": "PS.UI.Maui\\AppShell.xaml.cs",

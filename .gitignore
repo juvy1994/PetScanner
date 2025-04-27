@@ -1,0 +1,25 @@
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+bin/
+obj/
+out/
+artifacts/
+
+# MAUI / Android builds
+**/bin/
+**/obj/
+*.apk
+*.idsig
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
