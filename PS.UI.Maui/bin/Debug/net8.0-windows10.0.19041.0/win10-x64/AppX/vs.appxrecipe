@@ -30,25 +30,25 @@
     <AppXManifest Include="C:\Users\Julio\source\repos\PetScanner\PS.UI.Maui\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2025-04-25T07:44:10.186</Modified>
+      <Modified>2025-04-27T20:17:41.135</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Julio\source\repos\PetScanner\PS.UI.Maui\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2025-04-25T07:44:09.618</Modified>
+      <Modified>2025-04-27T20:17:40.691</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Julio\source\repos\PetScanner\PS.UI.Maui\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\PS.UI.Maui.runtimeconfig.json">
       <PackagePath>PS.UI.Maui.runtimeconfig.json</PackagePath>
-      <Modified>2025-04-25T07:44:08.282</Modified>
+      <Modified>2025-04-27T19:59:41.483</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Julio\source\repos\PetScanner\PS.UI.Maui\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\PS.UI.Maui.dll">
       <PackagePath>PS.UI.Maui.dll</PackagePath>
-      <Modified>2025-04-25T07:44:05.506</Modified>
+      <Modified>2025-04-27T20:17:37.759</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Julio\source\repos\PetScanner\PS.UI.Maui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>PS.UI.Maui.exe</PackagePath>
-      <Modified>2025-04-25T07:44:05.561</Modified>
+      <Modified>2025-04-27T20:17:37.898</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Julio\source\repos\PetScanner\PS.UI.Maui\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
@@ -56,23 +56,23 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Julio\source\repos\PetScanner\PS.UI.Maui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
       <PackagePath>splashSplashScreen.scale-100.png</PackagePath>
-      <Modified>2025-04-25T07:44:01.023</Modified>
+      <Modified>2025-04-27T19:59:37.953</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Julio\source\repos\PetScanner\PS.UI.Maui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
       <PackagePath>splashSplashScreen.scale-125.png</PackagePath>
-      <Modified>2025-04-25T07:44:01.043</Modified>
+      <Modified>2025-04-27T19:59:37.990</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Julio\source\repos\PetScanner\PS.UI.Maui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
       <PackagePath>splashSplashScreen.scale-150.png</PackagePath>
-      <Modified>2025-04-25T07:44:01.103</Modified>
+      <Modified>2025-04-27T19:59:38.046</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Julio\source\repos\PetScanner\PS.UI.Maui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
       <PackagePath>splashSplashScreen.scale-200.png</PackagePath>
-      <Modified>2025-04-25T07:44:01.185</Modified>
+      <Modified>2025-04-27T19:59:38.118</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Julio\source\repos\PetScanner\PS.UI.Maui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
       <PackagePath>splashSplashScreen.scale-400.png</PackagePath>
-      <Modified>2025-04-25T07:44:01.524</Modified>
+      <Modified>2025-04-27T19:59:38.386</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Julio\source\repos\PetScanner\PS.UI.Maui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
       <PackagePath>OpenSans-Regular.ttf</PackagePath>
@@ -82,213 +82,213 @@
       <PackagePath>OpenSans-Semibold.ttf</PackagePath>
       <Modified>2025-04-25T07:28:47.372</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Julio\source\repos\PetScanner\PS.UI.Maui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
-      <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
-      <Modified>2025-04-25T07:44:03.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Julio\source\repos\PetScanner\PS.UI.Maui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
-      <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
-      <Modified>2025-04-25T07:44:03.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Julio\source\repos\PetScanner\PS.UI.Maui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
-      <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
-      <Modified>2025-04-25T07:44:03.001</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Julio\source\repos\PetScanner\PS.UI.Maui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
-      <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
-      <Modified>2025-04-25T07:44:03.001</Modified>
+    <AppxPackagedFile Include="C:\Users\Julio\source\repos\PetScanner\PS.UI.Maui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
+      <PackagePath>appicon.ico</PackagePath>
+      <Modified>2025-04-27T19:59:40.047</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Julio\source\repos\PetScanner\PS.UI.Maui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
       <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
-      <Modified>2025-04-25T07:44:03.001</Modified>
+      <Modified>2025-04-27T19:59:40.034</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Julio\source\repos\PetScanner\PS.UI.Maui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
-      <PackagePath>appiconWideTile.scale-400.png</PackagePath>
-      <Modified>2025-04-25T07:44:03.002</Modified>
+    <AppxPackagedFile Include="C:\Users\Julio\source\repos\PetScanner\PS.UI.Maui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
+      <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
+      <Modified>2025-04-27T19:59:40.034</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Julio\source\repos\PetScanner\PS.UI.Maui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
-      <PackagePath>appiconWideTile.scale-200.png</PackagePath>
-      <Modified>2025-04-25T07:44:03.002</Modified>
+    <AppxPackagedFile Include="C:\Users\Julio\source\repos\PetScanner\PS.UI.Maui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
+      <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
+      <Modified>2025-04-27T19:59:40.034</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Julio\source\repos\PetScanner\PS.UI.Maui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
-      <PackagePath>appiconWideTile.scale-150.png</PackagePath>
-      <Modified>2025-04-25T07:44:03.002</Modified>
+    <AppxPackagedFile Include="C:\Users\Julio\source\repos\PetScanner\PS.UI.Maui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
+      <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
+      <Modified>2025-04-27T19:59:40.033</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Julio\source\repos\PetScanner\PS.UI.Maui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
-      <PackagePath>appiconWideTile.scale-125.png</PackagePath>
-      <Modified>2025-04-25T07:44:03.002</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Julio\source\repos\PetScanner\PS.UI.Maui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
-      <PackagePath>appiconWideTile.scale-100.png</PackagePath>
-      <Modified>2025-04-25T07:44:03.003</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Julio\source\repos\PetScanner\PS.UI.Maui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
-      <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
-      <Modified>2025-04-25T07:44:03.003</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Julio\source\repos\PetScanner\PS.UI.Maui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
-      <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
-      <Modified>2025-04-25T07:44:03.003</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Julio\source\repos\PetScanner\PS.UI.Maui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
-      <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
-      <Modified>2025-04-25T07:44:03.004</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Julio\source\repos\PetScanner\PS.UI.Maui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
-      <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
-      <Modified>2025-04-25T07:44:03.004</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Julio\source\repos\PetScanner\PS.UI.Maui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
-      <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
-      <Modified>2025-04-25T07:44:03.004</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Julio\source\repos\PetScanner\PS.UI.Maui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
-      <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
-      <Modified>2025-04-25T07:44:03.005</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Julio\source\repos\PetScanner\PS.UI.Maui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
-      <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
-      <Modified>2025-04-25T07:44:03.005</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Julio\source\repos\PetScanner\PS.UI.Maui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
-      <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
-      <Modified>2025-04-25T07:44:03.005</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Julio\source\repos\PetScanner\PS.UI.Maui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
-      <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
-      <Modified>2025-04-25T07:44:03.006</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Julio\source\repos\PetScanner\PS.UI.Maui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
-      <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
-      <Modified>2025-04-25T07:44:03.006</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Julio\source\repos\PetScanner\PS.UI.Maui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
-      <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
-      <Modified>2025-04-25T07:44:03.007</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Julio\source\repos\PetScanner\PS.UI.Maui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
-      <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
-      <Modified>2025-04-25T07:44:03.007</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Julio\source\repos\PetScanner\PS.UI.Maui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
-      <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
-      <Modified>2025-04-25T07:44:03.007</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Julio\source\repos\PetScanner\PS.UI.Maui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
-      <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
-      <Modified>2025-04-25T07:44:03.008</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Julio\source\repos\PetScanner\PS.UI.Maui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
-      <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
-      <Modified>2025-04-25T07:44:03.008</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Julio\source\repos\PetScanner\PS.UI.Maui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
-      <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
-      <Modified>2025-04-25T07:44:03.008</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Julio\source\repos\PetScanner\PS.UI.Maui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
-      <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
-      <Modified>2025-04-25T07:44:03.008</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Julio\source\repos\PetScanner\PS.UI.Maui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
-      <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
-      <Modified>2025-04-25T07:44:03.009</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Julio\source\repos\PetScanner\PS.UI.Maui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
-      <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
-      <Modified>2025-04-25T07:44:03.009</Modified>
+    <AppxPackagedFile Include="C:\Users\Julio\source\repos\PetScanner\PS.UI.Maui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
+      <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
+      <Modified>2025-04-27T19:59:40.033</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Julio\source\repos\PetScanner\PS.UI.Maui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
-      <Modified>2025-04-25T07:44:03.009</Modified>
+      <Modified>2025-04-27T19:59:40.041</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Julio\source\repos\PetScanner\PS.UI.Maui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
-      <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
-      <Modified>2025-04-25T07:44:03.010</Modified>
+    <AppxPackagedFile Include="C:\Users\Julio\source\repos\PetScanner\PS.UI.Maui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
+      <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
+      <Modified>2025-04-27T19:59:40.041</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Julio\source\repos\PetScanner\PS.UI.Maui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
-      <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
-      <Modified>2025-04-25T07:44:03.010</Modified>
+    <AppxPackagedFile Include="C:\Users\Julio\source\repos\PetScanner\PS.UI.Maui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
+      <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
+      <Modified>2025-04-27T19:59:40.040</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Julio\source\repos\PetScanner\PS.UI.Maui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
-      <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
-      <Modified>2025-04-25T07:44:03.010</Modified>
+    <AppxPackagedFile Include="C:\Users\Julio\source\repos\PetScanner\PS.UI.Maui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
+      <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
+      <Modified>2025-04-27T19:59:40.041</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Julio\source\repos\PetScanner\PS.UI.Maui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
-      <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
-      <Modified>2025-04-25T07:44:03.010</Modified>
+    <AppxPackagedFile Include="C:\Users\Julio\source\repos\PetScanner\PS.UI.Maui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
+      <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
+      <Modified>2025-04-27T19:59:40.040</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Julio\source\repos\PetScanner\PS.UI.Maui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
-      <Modified>2025-04-25T07:44:03.010</Modified>
+      <Modified>2025-04-27T19:59:40.043</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Julio\source\repos\PetScanner\PS.UI.Maui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
-      <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
-      <Modified>2025-04-25T07:44:03.011</Modified>
+    <AppxPackagedFile Include="C:\Users\Julio\source\repos\PetScanner\PS.UI.Maui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
+      <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
+      <Modified>2025-04-27T19:59:40.043</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Julio\source\repos\PetScanner\PS.UI.Maui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
-      <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
-      <Modified>2025-04-25T07:44:03.011</Modified>
+    <AppxPackagedFile Include="C:\Users\Julio\source\repos\PetScanner\PS.UI.Maui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
+      <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
+      <Modified>2025-04-27T19:59:40.042</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Julio\source\repos\PetScanner\PS.UI.Maui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
-      <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
-      <Modified>2025-04-25T07:44:03.011</Modified>
+    <AppxPackagedFile Include="C:\Users\Julio\source\repos\PetScanner\PS.UI.Maui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
+      <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
+      <Modified>2025-04-27T19:59:40.042</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Julio\source\repos\PetScanner\PS.UI.Maui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
-      <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
-      <Modified>2025-04-25T07:44:03.011</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Julio\source\repos\PetScanner\PS.UI.Maui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
-      <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
-      <Modified>2025-04-25T07:44:03.012</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Julio\source\repos\PetScanner\PS.UI.Maui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
-      <PackagePath>appiconLogo.scale-400.png</PackagePath>
-      <Modified>2025-04-25T07:44:03.012</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Julio\source\repos\PetScanner\PS.UI.Maui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
-      <PackagePath>appiconLogo.scale-200.png</PackagePath>
-      <Modified>2025-04-25T07:44:03.012</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Julio\source\repos\PetScanner\PS.UI.Maui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
-      <PackagePath>appiconLogo.scale-150.png</PackagePath>
-      <Modified>2025-04-25T07:44:03.012</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Julio\source\repos\PetScanner\PS.UI.Maui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
-      <PackagePath>appiconLogo.scale-125.png</PackagePath>
-      <Modified>2025-04-25T07:44:03.013</Modified>
+    <AppxPackagedFile Include="C:\Users\Julio\source\repos\PetScanner\PS.UI.Maui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
+      <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
+      <Modified>2025-04-27T19:59:40.042</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Julio\source\repos\PetScanner\PS.UI.Maui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
       <PackagePath>appiconLogo.scale-100.png</PackagePath>
-      <Modified>2025-04-25T07:44:03.013</Modified>
+      <Modified>2025-04-27T19:59:40.046</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Julio\source\repos\PetScanner\PS.UI.Maui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
-      <PackagePath>appicon.ico</PackagePath>
-      <Modified>2025-04-25T07:44:03.013</Modified>
+    <AppxPackagedFile Include="C:\Users\Julio\source\repos\PetScanner\PS.UI.Maui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
+      <PackagePath>appiconLogo.scale-125.png</PackagePath>
+      <Modified>2025-04-27T19:59:40.046</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Julio\source\repos\PetScanner\PS.UI.Maui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
-      <PackagePath>dotnet_bot.scale-400.png</PackagePath>
-      <Modified>2025-04-25T07:44:03.013</Modified>
+    <AppxPackagedFile Include="C:\Users\Julio\source\repos\PetScanner\PS.UI.Maui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
+      <PackagePath>appiconLogo.scale-150.png</PackagePath>
+      <Modified>2025-04-27T19:59:40.046</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Julio\source\repos\PetScanner\PS.UI.Maui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
-      <PackagePath>dotnet_bot.scale-200.png</PackagePath>
-      <Modified>2025-04-25T07:44:03.014</Modified>
+    <AppxPackagedFile Include="C:\Users\Julio\source\repos\PetScanner\PS.UI.Maui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
+      <PackagePath>appiconLogo.scale-200.png</PackagePath>
+      <Modified>2025-04-27T19:59:40.045</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Julio\source\repos\PetScanner\PS.UI.Maui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
-      <PackagePath>dotnet_bot.scale-150.png</PackagePath>
-      <Modified>2025-04-25T07:44:03.014</Modified>
+    <AppxPackagedFile Include="C:\Users\Julio\source\repos\PetScanner\PS.UI.Maui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
+      <PackagePath>appiconLogo.scale-400.png</PackagePath>
+      <Modified>2025-04-27T19:59:40.045</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Julio\source\repos\PetScanner\PS.UI.Maui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
-      <PackagePath>dotnet_bot.scale-125.png</PackagePath>
-      <Modified>2025-04-25T07:44:03.014</Modified>
+    <AppxPackagedFile Include="C:\Users\Julio\source\repos\PetScanner\PS.UI.Maui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
+      <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
+      <Modified>2025-04-27T19:59:40.045</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Julio\source\repos\PetScanner\PS.UI.Maui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
+      <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
+      <Modified>2025-04-27T19:59:40.044</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Julio\source\repos\PetScanner\PS.UI.Maui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
+      <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
+      <Modified>2025-04-27T19:59:40.043</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Julio\source\repos\PetScanner\PS.UI.Maui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
+      <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
+      <Modified>2025-04-27T19:59:40.044</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Julio\source\repos\PetScanner\PS.UI.Maui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
+      <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
+      <Modified>2025-04-27T19:59:40.044</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Julio\source\repos\PetScanner\PS.UI.Maui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
+      <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
+      <Modified>2025-04-27T19:59:40.037</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Julio\source\repos\PetScanner\PS.UI.Maui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
+      <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
+      <Modified>2025-04-27T19:59:40.037</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Julio\source\repos\PetScanner\PS.UI.Maui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
+      <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
+      <Modified>2025-04-27T19:59:40.037</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Julio\source\repos\PetScanner\PS.UI.Maui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
+      <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
+      <Modified>2025-04-27T19:59:40.036</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Julio\source\repos\PetScanner\PS.UI.Maui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
+      <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
+      <Modified>2025-04-27T19:59:40.036</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Julio\source\repos\PetScanner\PS.UI.Maui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
+      <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
+      <Modified>2025-04-27T19:59:40.039</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Julio\source\repos\PetScanner\PS.UI.Maui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
+      <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
+      <Modified>2025-04-27T19:59:40.038</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Julio\source\repos\PetScanner\PS.UI.Maui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
+      <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
+      <Modified>2025-04-27T19:59:40.038</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Julio\source\repos\PetScanner\PS.UI.Maui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
+      <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
+      <Modified>2025-04-27T19:59:40.038</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Julio\source\repos\PetScanner\PS.UI.Maui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
+      <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
+      <Modified>2025-04-27T19:59:40.037</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Julio\source\repos\PetScanner\PS.UI.Maui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
+      <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
+      <Modified>2025-04-27T19:59:40.040</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Julio\source\repos\PetScanner\PS.UI.Maui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
+      <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
+      <Modified>2025-04-27T19:59:40.040</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Julio\source\repos\PetScanner\PS.UI.Maui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
+      <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
+      <Modified>2025-04-27T19:59:40.039</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Julio\source\repos\PetScanner\PS.UI.Maui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
+      <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
+      <Modified>2025-04-27T19:59:40.039</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Julio\source\repos\PetScanner\PS.UI.Maui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
+      <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
+      <Modified>2025-04-27T19:59:40.039</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Julio\source\repos\PetScanner\PS.UI.Maui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
+      <PackagePath>appiconWideTile.scale-100.png</PackagePath>
+      <Modified>2025-04-27T19:59:40.036</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Julio\source\repos\PetScanner\PS.UI.Maui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
+      <PackagePath>appiconWideTile.scale-125.png</PackagePath>
+      <Modified>2025-04-27T19:59:40.035</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Julio\source\repos\PetScanner\PS.UI.Maui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
+      <PackagePath>appiconWideTile.scale-150.png</PackagePath>
+      <Modified>2025-04-27T19:59:40.035</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Julio\source\repos\PetScanner\PS.UI.Maui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
+      <PackagePath>appiconWideTile.scale-200.png</PackagePath>
+      <Modified>2025-04-27T19:59:40.035</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Julio\source\repos\PetScanner\PS.UI.Maui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
+      <PackagePath>appiconWideTile.scale-400.png</PackagePath>
+      <Modified>2025-04-27T19:59:40.034</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Julio\source\repos\PetScanner\PS.UI.Maui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
-      <Modified>2025-04-25T07:44:03.014</Modified>
+      <Modified>2025-04-27T19:59:40.048</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Julio\source\repos\PetScanner\PS.UI.Maui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
+      <PackagePath>dotnet_bot.scale-125.png</PackagePath>
+      <Modified>2025-04-27T19:59:40.048</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Julio\source\repos\PetScanner\PS.UI.Maui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
+      <PackagePath>dotnet_bot.scale-150.png</PackagePath>
+      <Modified>2025-04-27T19:59:40.048</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Julio\source\repos\PetScanner\PS.UI.Maui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
+      <PackagePath>dotnet_bot.scale-200.png</PackagePath>
+      <Modified>2025-04-27T19:59:40.047</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Julio\source\repos\PetScanner\PS.UI.Maui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
+      <PackagePath>dotnet_bot.scale-400.png</PackagePath>
+      <Modified>2025-04-27T19:59:40.047</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Julio\source\repos\PetScanner\PS.UI.Maui\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\PS.UI.Maui.deps.json">
       <PackagePath>PS.UI.Maui.deps.json</PackagePath>
-      <Modified>2025-04-25T07:44:07.948</Modified>
+      <Modified>2025-04-27T20:17:40.106</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Julio\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.57\lib\net8.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>
@@ -576,11 +576,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Julio\source\repos\PetScanner\PS.Core\bin\Debug\net8.0\PS.Core.dll">
       <PackagePath>PS.Core.dll</PackagePath>
-      <Modified>2025-04-25T07:43:38.832</Modified>
+      <Modified>2025-04-27T19:59:28.060</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Julio\source\repos\PetScanner\PS.Infrastructure\bin\Debug\net8.0\PS.Infrastructure.dll">
       <PackagePath>PS.Infrastructure.dll</PackagePath>
-      <Modified>2025-04-25T07:43:39.670</Modified>
+      <Modified>2025-04-27T19:59:28.578</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Julio\.nuget\packages\microsoft.maui.controls.compatibility\8.0.100\lib\net8.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>

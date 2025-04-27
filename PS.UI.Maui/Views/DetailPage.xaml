@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PS.UI.Maui.Views.DetailPage"
+             Title="DetailPage">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        
+        <Label 
+             Text="Resultado"
+             VerticalOptions="Center" 
+             HorizontalOptions="Center"
+             Grid.Row="0"
+             Grid.ColumnSpan="3"/>
+        <Image Grid.Row="1"
+               Grid.ColumnSpan="3"
+               Source="dotnet_bot.png"
+               MinimumWidthRequest="100"
+               MaximumHeightRequest="100"/>
+        <Label x:Name="lblData"
+               Grid.Row="2"
+               Grid.ColumnSpan="3"
+               Text="Este es un texto de ejemplo que puede tener hasta 200 caracteres o más sin problema..."
+               LineBreakMode="WordWrap"
+                MaxLines="0"/>
+        
+        <Button x:Name="btnKeep"
+                Grid.Row="3"
+                Grid.Column="0"
+                Text="Guardar"
+                Clicked="btnKeep_Clicked"/>
+        <Button x:Name="btnShare"
+                Grid.Row="3"
+                Grid.Column="1"
+                Text="Compartir"
+                Clicked="btnShare_Clicked"/>
+        <Button x:Name="btnSearch"
+                Grid.Row="3"
+                Grid.Column="2"
+                Text="Nueva Búsqueda"
+                Clicked="btnSearch_Clicked"/>
+    </Grid>
+</ContentPage>

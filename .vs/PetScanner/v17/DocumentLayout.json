@@ -1,12 +1,37 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Julio\\source\\repos\\PetScanner\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{365BB809-90EC-4D21-A256-E2349494A402}|PS.UI.Maui\\PS.UI.Maui.csproj|c:\\users\\julio\\source\\repos\\petscanner\\ps.ui.maui\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{365BB809-90EC-4D21-A256-E2349494A402}|PS.UI.Maui\\PS.UI.Maui.csproj|solutionrelative:ps.ui.maui\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AppShell.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Julio\\source\\repos\\PetScanner\\PS.UI.Maui\\AppShell.xaml.cs",
+              "RelativeDocumentMoniker": "PS.UI.Maui\\AppShell.xaml.cs",
+              "ToolTip": "C:\\Users\\Julio\\source\\repos\\PetScanner\\PS.UI.Maui\\AppShell.xaml.cs",
+              "RelativeToolTip": "PS.UI.Maui\\AppShell.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T20:16:47.054Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

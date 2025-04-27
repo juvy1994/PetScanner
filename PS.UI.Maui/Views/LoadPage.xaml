@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PS.UI.Maui.Views.LoadPage"
+             Title="LoadPage">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Label
+              Grid.Row="0"
+              Grid.ColumnSpan="2"
+              Text="Buscar"
+              VerticalOptions="Center" 
+              HorizontalOptions="Center" /> 
+        <Button x:Name="btnTakePhoto"
+                    Grid.Row="1"
+                    Grid.Column="0"
+                    Text="Tomar Fotografía"
+                    Clicked="btnTakePhoto_Clicked"/>
+
+        <Button x:Name="btnUploadPhoto"
+                Grid.Row="1"
+                Grid.Column="1"
+                Text="Subir Fotografía"
+                Clicked="btnUploadPhoto_Clicked"/>
+        <Image Grid.Row="2"
+                Grid.ColumnSpan="2"
+                Source="dotnet_bot.png"
+                MinimumWidthRequest="100"
+                MaximumHeightRequest="100"/>
+        <Button x:Name="btnSearch"
+              Grid.Row="3"
+              Grid.ColumnSpan="2"
+              Text="Buscar"
+              Clicked="btnSearch_Clicked"/>    
+    </Grid>
+</ContentPage>

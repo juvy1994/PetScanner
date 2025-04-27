@@ -158,6 +158,7 @@ C:\Users\Julio\source\repos\PetScanner\PS.UI.Maui\obj\Debug\net8.0-windows10.0.1
 C:\Users\Julio\source\repos\PetScanner\PS.UI.Maui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\PS.UI.Maui.AssemblyInfoInputs.cache
 C:\Users\Julio\source\repos\PetScanner\PS.UI.Maui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\PS.UI.Maui.AssemblyInfo.cs
 C:\Users\Julio\source\repos\PetScanner\PS.UI.Maui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\PS.UI.Maui.csproj.CoreCompileInputs.cache
+C:\Users\Julio\source\repos\PetScanner\PS.UI.Maui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\PS.UI.Maui.sourcelink.json
 C:\Users\Julio\source\repos\PetScanner\PS.UI.Maui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\XamlC.stamp
 C:\Users\Julio\source\repos\PetScanner\PS.UI.Maui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\PS.UI.Maui.csproj.Up2Date
 C:\Users\Julio\source\repos\PetScanner\PS.UI.Maui\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\PS.UI.Maui.dll

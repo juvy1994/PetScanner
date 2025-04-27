@@ -3,13 +3,43 @@
     x:Class="PS.UI.Maui.AppShell"
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    xmlns:local="clr-namespace:PS.UI.Maui"
-    Shell.FlyoutBehavior="Disabled"
+    xmlns:local="clr-namespace:PS.UI.Maui.Views"
+    Shell.FlyoutBehavior="Flyout"
+    Shell.TabBarIsVisible="True"
     Title="PS.UI.Maui">
 
-    <ShellContent
-        Title="Home"
-        ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
+    <Shell.FlyoutHeader>
+        <VerticalStackLayout>
+            <Image Source="dotnet_bot.png"
+                   MaximumWidthRequest="50"
+                   MinimumWidthRequest="50"/>
+            <Label
+                Text="PetScanner"
+                HorizontalTextAlignment="Center"/>
+        </VerticalStackLayout>
+    </Shell.FlyoutHeader>
+
+    <FlyoutItem Title="Home" FlyoutDisplayOptions="AsMultipleItems">
+        <ShellContent 
+            Title="Home"
+            ContentTemplate="{DataTemplate local:MainPage}"
+            Route="MainPage" 
+                Icon="dotnet_bot.png"/>
+        <ShellContent
+            Title="Identificar mascotas"
+            ContentTemplate="{DataTemplate local:LoadPage}"
+            Route="LoadPage" 
+                Icon="dotnet_bot.png"/>
+        <ShellContent
+             Title="Historial"
+             ContentTemplate="{DataTemplate local:HistoryPage}"
+             Route="HistoryPage" 
+                 Icon="dotnet_bot.png"/>
+        <ShellContent
+            Title="Ajustes"
+            ContentTemplate="{DataTemplate local:SettingPage}"
+            Route="SettingPage" 
+                Icon="dotnet_bot.png"/>
+    </FlyoutItem>
 
 </Shell>

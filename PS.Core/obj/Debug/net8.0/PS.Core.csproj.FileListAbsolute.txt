@@ -5,6 +5,7 @@ C:\Users\Julio\source\repos\PetScanner\PS.Core\obj\Debug\net8.0\PS.Core.Generate
 C:\Users\Julio\source\repos\PetScanner\PS.Core\obj\Debug\net8.0\PS.Core.AssemblyInfoInputs.cache
 C:\Users\Julio\source\repos\PetScanner\PS.Core\obj\Debug\net8.0\PS.Core.AssemblyInfo.cs
 C:\Users\Julio\source\repos\PetScanner\PS.Core\obj\Debug\net8.0\PS.Core.csproj.CoreCompileInputs.cache
+C:\Users\Julio\source\repos\PetScanner\PS.Core\obj\Debug\net8.0\PS.Core.sourcelink.json
 C:\Users\Julio\source\repos\PetScanner\PS.Core\obj\Debug\net8.0\PS.Core.dll
 C:\Users\Julio\source\repos\PetScanner\PS.Core\obj\Debug\net8.0\refint\PS.Core.dll
 C:\Users\Julio\source\repos\PetScanner\PS.Core\obj\Debug\net8.0\PS.Core.pdb
