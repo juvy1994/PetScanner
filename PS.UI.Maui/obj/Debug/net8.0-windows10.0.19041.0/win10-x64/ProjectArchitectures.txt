@@ -1,0 +1,1 @@
+C:\Users\Julio\source\repos\PetScanner\PS.UI.Maui\PS.UI.Maui.csproj;x64

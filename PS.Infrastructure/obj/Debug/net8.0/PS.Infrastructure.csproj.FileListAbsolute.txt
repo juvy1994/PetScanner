@@ -1,0 +1,15 @@
+C:\Users\Julio\source\repos\PetScanner\PS.Infrastructure\bin\Debug\net8.0\PS.Infrastructure.deps.json
+C:\Users\Julio\source\repos\PetScanner\PS.Infrastructure\bin\Debug\net8.0\PS.Infrastructure.dll
+C:\Users\Julio\source\repos\PetScanner\PS.Infrastructure\bin\Debug\net8.0\PS.Infrastructure.pdb
+C:\Users\Julio\source\repos\PetScanner\PS.Infrastructure\bin\Debug\net8.0\PS.Core.dll
+C:\Users\Julio\source\repos\PetScanner\PS.Infrastructure\bin\Debug\net8.0\PS.Core.pdb
+C:\Users\Julio\source\repos\PetScanner\PS.Infrastructure\obj\Debug\net8.0\PS.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Julio\source\repos\PetScanner\PS.Infrastructure\obj\Debug\net8.0\PS.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Julio\source\repos\PetScanner\PS.Infrastructure\obj\Debug\net8.0\PS.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Julio\source\repos\PetScanner\PS.Infrastructure\obj\Debug\net8.0\PS.Infrastructure.AssemblyInfo.cs
+C:\Users\Julio\source\repos\PetScanner\PS.Infrastructure\obj\Debug\net8.0\PS.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Julio\source\repos\PetScanner\PS.Infrastructure\obj\Debug\net8.0\PS.Infra.62805819.Up2Date
+C:\Users\Julio\source\repos\PetScanner\PS.Infrastructure\obj\Debug\net8.0\PS.Infrastructure.dll
+C:\Users\Julio\source\repos\PetScanner\PS.Infrastructure\obj\Debug\net8.0\refint\PS.Infrastructure.dll
+C:\Users\Julio\source\repos\PetScanner\PS.Infrastructure\obj\Debug\net8.0\PS.Infrastructure.pdb
+C:\Users\Julio\source\repos\PetScanner\PS.Infrastructure\obj\Debug\net8.0\ref\PS.Infrastructure.dll
