@@ -1,0 +1,6 @@
+@PS.API_HostAddress = http://localhost:5186
+
+GET {{PS.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

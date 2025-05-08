@@ -1,13 +1,36 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Julio\\source\\repos\\PetScanner\\",
+  "WorkspaceRootPath": "E:\\MAUI\\PetScan_Backend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{365BB809-90EC-4D21-A256-E2349494A402}|PS.UI.Maui\\PS.UI.Maui.csproj|c:\\users\\julio\\source\\repos\\petscanner\\ps.ui.maui\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{FEF04248-F913-44F6-8040-1033B3AFE2C7}|PS.API\\PS.API.csproj|e:\\maui\\petscan_backend\\ps.api\\controllers\\petscancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEF04248-F913-44F6-8040-1033B3AFE2C7}|PS.API\\PS.API.csproj|solutionrelative:ps.api\\controllers\\petscancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE33BF51-799F-4D31-A86B-E03AB0AE147B}|PS.Infrastructure\\PS.Infrastructure.csproj|e:\\maui\\petscan_backend\\ps.infrastructure\\services\\azureblobservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE33BF51-799F-4D31-A86B-E03AB0AE147B}|PS.Infrastructure\\PS.Infrastructure.csproj|solutionrelative:ps.infrastructure\\services\\azureblobservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE33BF51-799F-4D31-A86B-E03AB0AE147B}|PS.Infrastructure\\PS.Infrastructure.csproj|e:\\maui\\petscan_backend\\ps.infrastructure\\services\\chatservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE33BF51-799F-4D31-A86B-E03AB0AE147B}|PS.Infrastructure\\PS.Infrastructure.csproj|solutionrelative:ps.infrastructure\\services\\chatservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE33BF51-799F-4D31-A86B-E03AB0AE147B}|PS.Infrastructure\\PS.Infrastructure.csproj|e:\\maui\\petscan_backend\\ps.infrastructure\\services\\imageanalysisservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE33BF51-799F-4D31-A86B-E03AB0AE147B}|PS.Infrastructure\\PS.Infrastructure.csproj|solutionrelative:ps.infrastructure\\services\\imageanalysisservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE33BF51-799F-4D31-A86B-E03AB0AE147B}|PS.Infrastructure\\PS.Infrastructure.csproj|e:\\maui\\petscan_backend\\ps.infrastructure\\interfaces\\iimageanalysisservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE33BF51-799F-4D31-A86B-E03AB0AE147B}|PS.Infrastructure\\PS.Infrastructure.csproj|solutionrelative:ps.infrastructure\\interfaces\\iimageanalysisservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\sdk\\9.0.102\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{365BB809-90EC-4D21-A256-E2349494A402}|PS.UI.Maui\\PS.UI.Maui.csproj|e:\\maui\\petscan_backend\\ps.ui.maui\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{365BB809-90EC-4D21-A256-E2349494A402}|PS.UI.Maui\\PS.UI.Maui.csproj|solutionrelative:ps.ui.maui\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{365BB809-90EC-4D21-A256-E2349494A402}|PS.UI.Maui\\PS.UI.Maui.csproj|c:\\users\\julio\\source\\repos\\petscanner\\ps.ui.maui\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{365BB809-90EC-4D21-A256-E2349494A402}|PS.UI.Maui\\PS.UI.Maui.csproj|e:\\maui\\petscan_backend\\ps.ui.maui\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{365BB809-90EC-4D21-A256-E2349494A402}|PS.UI.Maui\\PS.UI.Maui.csproj|solutionrelative:ps.ui.maui\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -18,33 +41,108 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IImageAnalysisService.cs",
+              "DocumentMoniker": "E:\\MAUI\\PetScan_Backend\\PS.Infrastructure\\Interfaces\\IImageAnalysisService.cs",
+              "RelativeDocumentMoniker": "PS.Infrastructure\\Interfaces\\IImageAnalysisService.cs",
+              "ToolTip": "E:\\MAUI\\PetScan_Backend\\PS.Infrastructure\\Interfaces\\IImageAnalysisService.cs",
+              "RelativeToolTip": "PS.Infrastructure\\Interfaces\\IImageAnalysisService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T04:03:45.07Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AzureBlobService.cs",
+              "DocumentMoniker": "E:\\MAUI\\PetScan_Backend\\PS.Infrastructure\\Services\\AzureBlobService.cs",
+              "RelativeDocumentMoniker": "PS.Infrastructure\\Services\\AzureBlobService.cs",
+              "ToolTip": "E:\\MAUI\\PetScan_Backend\\PS.Infrastructure\\Services\\AzureBlobService.cs",
+              "RelativeToolTip": "PS.Infrastructure\\Services\\AzureBlobService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T04:02:42.15Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ChatService.cs",
+              "DocumentMoniker": "E:\\MAUI\\PetScan_Backend\\PS.Infrastructure\\Services\\ChatService.cs",
+              "RelativeDocumentMoniker": "PS.Infrastructure\\Services\\ChatService.cs",
+              "ToolTip": "E:\\MAUI\\PetScan_Backend\\PS.Infrastructure\\Services\\ChatService.cs",
+              "RelativeToolTip": "PS.Infrastructure\\Services\\ChatService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T04:02:25.157Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ImageAnalysisService.cs",
+              "DocumentMoniker": "E:\\MAUI\\PetScan_Backend\\PS.Infrastructure\\Services\\ImageAnalysisService.cs",
+              "RelativeDocumentMoniker": "PS.Infrastructure\\Services\\ImageAnalysisService.cs",
+              "ToolTip": "E:\\MAUI\\PetScan_Backend\\PS.Infrastructure\\Services\\ImageAnalysisService.cs",
+              "RelativeToolTip": "PS.Infrastructure\\Services\\ImageAnalysisService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T04:02:17.128Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "PetScanController.cs",
+              "DocumentMoniker": "E:\\MAUI\\PetScan_Backend\\PS.API\\Controllers\\PetScanController.cs",
+              "RelativeDocumentMoniker": "PS.API\\Controllers\\PetScanController.cs",
+              "ToolTip": "E:\\MAUI\\PetScan_Backend\\PS.API\\Controllers\\PetScanController.cs",
+              "RelativeToolTip": "PS.API\\Controllers\\PetScanController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T04:01:20.438Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Microsoft.PackageDependencyResolution.targets",
+              "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\9.0.102\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
+              "ToolTip": "C:\\Program Files\\dotnet\\sdk\\9.0.102\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
+              "ViewState": "AgIAAPAAAAAAAAAAAAAewPwAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-05-08T03:46:16.139Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "AppShell.xaml",
-              "DocumentMoniker": "C:\\Users\\Julio\\source\\repos\\PetScanner\\PS.UI.Maui\\AppShell.xaml",
+              "DocumentMoniker": "E:\\MAUI\\PetScan_Backend\\PS.UI.Maui\\AppShell.xaml",
               "RelativeDocumentMoniker": "PS.UI.Maui\\AppShell.xaml",
-              "ToolTip": "C:\\Users\\Julio\\source\\repos\\PetScanner\\PS.UI.Maui\\AppShell.xaml",
+              "ToolTip": "E:\\MAUI\\PetScan_Backend\\PS.UI.Maui\\AppShell.xaml",
               "RelativeToolTip": "PS.UI.Maui\\AppShell.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-04-27T21:27:48.912Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "AppShell.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Julio\\source\\repos\\PetScanner\\PS.UI.Maui\\AppShell.xaml.cs",
+              "DocumentMoniker": "E:\\MAUI\\PetScan_Backend\\PS.UI.Maui\\AppShell.xaml.cs",
               "RelativeDocumentMoniker": "PS.UI.Maui\\AppShell.xaml.cs",
-              "ToolTip": "C:\\Users\\Julio\\source\\repos\\PetScanner\\PS.UI.Maui\\AppShell.xaml.cs",
+              "ToolTip": "E:\\MAUI\\PetScan_Backend\\PS.UI.Maui\\AppShell.xaml.cs",
               "RelativeToolTip": "PS.UI.Maui\\AppShell.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-27T20:16:47.054Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-27T20:16:47.054Z"
             }
           ]
         }
