@@ -1,10 +1,62 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Julio\\source\\repos\\PetScanner\\",
+  "WorkspaceRootPath": "E:\\MAUI\\PetScan_Backend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{365BB809-90EC-4D21-A256-E2349494A402}|PS.UI.Maui\\PS.UI.Maui.csproj|c:\\users\\julio\\source\\repos\\petscanner\\ps.ui.maui\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{365BB809-90EC-4D21-A256-E2349494A402}|PS.UI.Maui\\PS.UI.Maui.csproj|solutionrelative:ps.ui.maui\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FEF04248-F913-44F6-8040-1033B3AFE2C7}|PS.API\\PS.API.csproj|e:\\maui\\petscan_backend\\ps.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{FEF04248-F913-44F6-8040-1033B3AFE2C7}|PS.API\\PS.API.csproj|solutionrelative:ps.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE33BF51-799F-4D31-A86B-E03AB0AE147B}|PS.Infrastructure\\PS.Infrastructure.csproj|e:\\maui\\petscan_backend\\ps.infrastructure\\services\\openaivisionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE33BF51-799F-4D31-A86B-E03AB0AE147B}|PS.Infrastructure\\PS.Infrastructure.csproj|solutionrelative:ps.infrastructure\\services\\openaivisionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE33BF51-799F-4D31-A86B-E03AB0AE147B}|PS.Infrastructure\\PS.Infrastructure.csproj|e:\\maui\\petscan_backend\\ps.infrastructure\\services\\imageanalysisservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE33BF51-799F-4D31-A86B-E03AB0AE147B}|PS.Infrastructure\\PS.Infrastructure.csproj|solutionrelative:ps.infrastructure\\services\\imageanalysisservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE33BF51-799F-4D31-A86B-E03AB0AE147B}|PS.Infrastructure\\PS.Infrastructure.csproj|e:\\maui\\petscan_backend\\ps.infrastructure\\services\\chatservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE33BF51-799F-4D31-A86B-E03AB0AE147B}|PS.Infrastructure\\PS.Infrastructure.csproj|solutionrelative:ps.infrastructure\\services\\chatservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE33BF51-799F-4D31-A86B-E03AB0AE147B}|PS.Infrastructure\\PS.Infrastructure.csproj|e:\\maui\\petscan_backend\\ps.infrastructure\\interfaces\\ichatservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE33BF51-799F-4D31-A86B-E03AB0AE147B}|PS.Infrastructure\\PS.Infrastructure.csproj|solutionrelative:ps.infrastructure\\interfaces\\ichatservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE33BF51-799F-4D31-A86B-E03AB0AE147B}|PS.Infrastructure\\PS.Infrastructure.csproj|e:\\maui\\petscan_backend\\ps.infrastructure\\interfaces\\iimageanalysisservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE33BF51-799F-4D31-A86B-E03AB0AE147B}|PS.Infrastructure\\PS.Infrastructure.csproj|solutionrelative:ps.infrastructure\\interfaces\\iimageanalysisservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE33BF51-799F-4D31-A86B-E03AB0AE147B}|PS.Infrastructure\\PS.Infrastructure.csproj|e:\\maui\\petscan_backend\\ps.infrastructure\\interfaces\\iopenaivisionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE33BF51-799F-4D31-A86B-E03AB0AE147B}|PS.Infrastructure\\PS.Infrastructure.csproj|solutionrelative:ps.infrastructure\\interfaces\\iopenaivisionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE33BF51-799F-4D31-A86B-E03AB0AE147B}|PS.Infrastructure\\PS.Infrastructure.csproj|e:\\maui\\petscan_backend\\ps.infrastructure\\dtos\\scanopenairequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE33BF51-799F-4D31-A86B-E03AB0AE147B}|PS.Infrastructure\\PS.Infrastructure.csproj|solutionrelative:ps.infrastructure\\dtos\\scanopenairequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE33BF51-799F-4D31-A86B-E03AB0AE147B}|PS.Infrastructure\\PS.Infrastructure.csproj|e:\\maui\\petscan_backend\\ps.infrastructure\\dtos\\petbreedinfodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE33BF51-799F-4D31-A86B-E03AB0AE147B}|PS.Infrastructure\\PS.Infrastructure.csproj|solutionrelative:ps.infrastructure\\dtos\\petbreedinfodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEF04248-F913-44F6-8040-1033B3AFE2C7}|PS.API\\PS.API.csproj|e:\\maui\\petscan_backend\\ps.api\\ps.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{FEF04248-F913-44F6-8040-1033B3AFE2C7}|PS.API\\PS.API.csproj|solutionrelative:ps.api\\ps.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEF04248-F913-44F6-8040-1033B3AFE2C7}|PS.API\\PS.API.csproj|e:\\maui\\petscan_backend\\ps.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEF04248-F913-44F6-8040-1033B3AFE2C7}|PS.API\\PS.API.csproj|solutionrelative:ps.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEF04248-F913-44F6-8040-1033B3AFE2C7}|PS.API\\PS.API.csproj|e:\\maui\\petscan_backend\\ps.api\\controllers\\petscancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEF04248-F913-44F6-8040-1033B3AFE2C7}|PS.API\\PS.API.csproj|solutionrelative:ps.api\\controllers\\petscancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE33BF51-799F-4D31-A86B-E03AB0AE147B}|PS.Infrastructure\\PS.Infrastructure.csproj|e:\\maui\\petscan_backend\\ps.infrastructure\\shared\\breeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE33BF51-799F-4D31-A86B-E03AB0AE147B}|PS.Infrastructure\\PS.Infrastructure.csproj|solutionrelative:ps.infrastructure\\shared\\breeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE33BF51-799F-4D31-A86B-E03AB0AE147B}|PS.Infrastructure\\PS.Infrastructure.csproj|e:\\maui\\petscan_backend\\ps.infrastructure\\mocks\\petbreedinfomockgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE33BF51-799F-4D31-A86B-E03AB0AE147B}|PS.Infrastructure\\PS.Infrastructure.csproj|solutionrelative:ps.infrastructure\\mocks\\petbreedinfomockgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,19 +66,188 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AppShell.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Julio\\source\\repos\\PetScanner\\PS.UI.Maui\\AppShell.xaml.cs",
-              "RelativeDocumentMoniker": "PS.UI.Maui\\AppShell.xaml.cs",
-              "ToolTip": "C:\\Users\\Julio\\source\\repos\\PetScanner\\PS.UI.Maui\\AppShell.xaml.cs",
-              "RelativeToolTip": "PS.UI.Maui\\AppShell.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAiAAAAAAAAAA==",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\MAUI\\PetScan_Backend\\PS.API\\Program.cs",
+              "RelativeDocumentMoniker": "PS.API\\Program.cs",
+              "ToolTip": "E:\\MAUI\\PetScan_Backend\\PS.API\\Program.cs",
+              "RelativeToolTip": "PS.API\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-27T20:16:47.054Z",
+              "WhenOpened": "2025-05-10T21:29:21.618Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IImageAnalysisService.cs",
+              "DocumentMoniker": "E:\\MAUI\\PetScan_Backend\\PS.Infrastructure\\Interfaces\\IImageAnalysisService.cs",
+              "RelativeDocumentMoniker": "PS.Infrastructure\\Interfaces\\IImageAnalysisService.cs",
+              "ToolTip": "E:\\MAUI\\PetScan_Backend\\PS.Infrastructure\\Interfaces\\IImageAnalysisService.cs",
+              "RelativeToolTip": "PS.Infrastructure\\Interfaces\\IImageAnalysisService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T04:03:45.07Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ChatService.cs",
+              "DocumentMoniker": "E:\\MAUI\\PetScan_Backend\\PS.Infrastructure\\Services\\ChatService.cs",
+              "RelativeDocumentMoniker": "PS.Infrastructure\\Services\\ChatService.cs",
+              "ToolTip": "E:\\MAUI\\PetScan_Backend\\PS.Infrastructure\\Services\\ChatService.cs",
+              "RelativeToolTip": "PS.Infrastructure\\Services\\ChatService.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAA5wAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T07:59:02.761Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ImageAnalysisService.cs",
+              "DocumentMoniker": "E:\\MAUI\\PetScan_Backend\\PS.Infrastructure\\Services\\ImageAnalysisService.cs",
+              "RelativeDocumentMoniker": "PS.Infrastructure\\Services\\ImageAnalysisService.cs",
+              "ToolTip": "E:\\MAUI\\PetScan_Backend\\PS.Infrastructure\\Services\\ImageAnalysisService.cs",
+              "RelativeToolTip": "PS.Infrastructure\\Services\\ImageAnalysisService.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABMAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T21:07:11.269Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "OpenAiVisionService.cs",
+              "DocumentMoniker": "E:\\MAUI\\PetScan_Backend\\PS.Infrastructure\\Services\\OpenAiVisionService.cs",
+              "RelativeDocumentMoniker": "PS.Infrastructure\\Services\\OpenAiVisionService.cs",
+              "ToolTip": "E:\\MAUI\\PetScan_Backend\\PS.Infrastructure\\Services\\OpenAiVisionService.cs",
+              "RelativeToolTip": "PS.Infrastructure\\Services\\OpenAiVisionService.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAA8wCAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T06:52:58.284Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IOpenAiVisionService.cs",
+              "DocumentMoniker": "E:\\MAUI\\PetScan_Backend\\PS.Infrastructure\\Interfaces\\IOpenAiVisionService.cs",
+              "RelativeDocumentMoniker": "PS.Infrastructure\\Interfaces\\IOpenAiVisionService.cs",
+              "ToolTip": "E:\\MAUI\\PetScan_Backend\\PS.Infrastructure\\Interfaces\\IOpenAiVisionService.cs",
+              "RelativeToolTip": "PS.Infrastructure\\Interfaces\\IOpenAiVisionService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T21:30:33.022Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IChatService.cs",
+              "DocumentMoniker": "E:\\MAUI\\PetScan_Backend\\PS.Infrastructure\\Interfaces\\IChatService.cs",
+              "RelativeDocumentMoniker": "PS.Infrastructure\\Interfaces\\IChatService.cs",
+              "ToolTip": "E:\\MAUI\\PetScan_Backend\\PS.Infrastructure\\Interfaces\\IChatService.cs",
+              "RelativeToolTip": "PS.Infrastructure\\Interfaces\\IChatService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T21:30:29.064Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\MAUI\\PetScan_Backend\\PS.API\\appsettings.json",
+              "RelativeDocumentMoniker": "PS.API\\appsettings.json",
+              "ToolTip": "E:\\MAUI\\PetScan_Backend\\PS.API\\appsettings.json",
+              "RelativeToolTip": "PS.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-10T21:27:36.857Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PetBreedInfoDto.cs",
+              "DocumentMoniker": "E:\\MAUI\\PetScan_Backend\\PS.Infrastructure\\DTOs\\PetBreedInfoDto.cs",
+              "RelativeDocumentMoniker": "PS.Infrastructure\\DTOs\\PetBreedInfoDto.cs",
+              "ToolTip": "E:\\MAUI\\PetScan_Backend\\PS.Infrastructure\\DTOs\\PetBreedInfoDto.cs",
+              "RelativeToolTip": "PS.Infrastructure\\DTOs\\PetBreedInfoDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T21:30:15.826Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ScanOpenAIRequest.cs",
+              "DocumentMoniker": "E:\\MAUI\\PetScan_Backend\\PS.Infrastructure\\DTOs\\ScanOpenAIRequest.cs",
+              "RelativeDocumentMoniker": "PS.Infrastructure\\DTOs\\ScanOpenAIRequest.cs",
+              "ToolTip": "E:\\MAUI\\PetScan_Backend\\PS.Infrastructure\\DTOs\\ScanOpenAIRequest.cs",
+              "RelativeToolTip": "PS.Infrastructure\\DTOs\\ScanOpenAIRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T21:30:22.776Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PetScanController.cs",
+              "DocumentMoniker": "E:\\MAUI\\PetScan_Backend\\PS.API\\Controllers\\PetScanController.cs",
+              "RelativeDocumentMoniker": "PS.API\\Controllers\\PetScanController.cs",
+              "ToolTip": "E:\\MAUI\\PetScan_Backend\\PS.API\\Controllers\\PetScanController.cs",
+              "RelativeToolTip": "PS.API\\Controllers\\PetScanController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T04:01:20.438Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "BreedData.cs",
+              "DocumentMoniker": "E:\\MAUI\\PetScan_Backend\\PS.Infrastructure\\Shared\\BreedData.cs",
+              "RelativeDocumentMoniker": "PS.Infrastructure\\Shared\\BreedData.cs",
+              "ToolTip": "E:\\MAUI\\PetScan_Backend\\PS.Infrastructure\\Shared\\BreedData.cs",
+              "RelativeToolTip": "PS.Infrastructure\\Shared\\BreedData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T21:05:24.848Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PS.API.http",
+              "DocumentMoniker": "E:\\MAUI\\PetScan_Backend\\PS.API\\PS.API.http",
+              "RelativeDocumentMoniker": "PS.API\\PS.API.http",
+              "ToolTip": "E:\\MAUI\\PetScan_Backend\\PS.API\\PS.API.http",
+              "RelativeToolTip": "PS.API\\PS.API.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-05-10T20:12:15.842Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "PetBreedInfoMockGenerator.cs",
+              "DocumentMoniker": "E:\\MAUI\\PetScan_Backend\\PS.Infrastructure\\Mocks\\PetBreedInfoMockGenerator.cs",
+              "RelativeDocumentMoniker": "PS.Infrastructure\\Mocks\\PetBreedInfoMockGenerator.cs",
+              "ToolTip": "E:\\MAUI\\PetScan_Backend\\PS.Infrastructure\\Mocks\\PetBreedInfoMockGenerator.cs",
+              "RelativeToolTip": "PS.Infrastructure\\Mocks\\PetBreedInfoMockGenerator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T21:04:41.156Z",
               "EditorCaption": ""
             }
           ]

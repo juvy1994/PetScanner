@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PS.UI.Maui", "PS.UI.Maui\PS
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SP.Test", "SP.Test\SP.Test.csproj", "{967E451E-C7F0-4AD0-B92B-CBA13CFF947E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PS.API", "PS.API\PS.API.csproj", "{FEF04248-F913-44F6-8040-1033B3AFE2C7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,6 +37,10 @@ Global
 		{967E451E-C7F0-4AD0-B92B-CBA13CFF947E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{967E451E-C7F0-4AD0-B92B-CBA13CFF947E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{967E451E-C7F0-4AD0-B92B-CBA13CFF947E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEF04248-F913-44F6-8040-1033B3AFE2C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEF04248-F913-44F6-8040-1033B3AFE2C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEF04248-F913-44F6-8040-1033B3AFE2C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEF04248-F913-44F6-8040-1033B3AFE2C7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
