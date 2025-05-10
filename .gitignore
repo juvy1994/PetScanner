@@ -1,25 +1,70 @@
-# Visual Studio
+# ========== Visual Studio ==========
 .vs/
 *.suo
 *.user
 *.userosscache
 *.sln.docstates
 
-# Build results
+# ========== Build Outputs ==========
 bin/
 obj/
 out/
 artifacts/
 
-# MAUI / Android builds
-**/bin/
-**/obj/
+# ========== MAUI / Android / iOS ==========
 *.apk
+*.apks
+*.aab
 *.idsig
+*.dex
+*.so
+*.aar
+*.ipa
+*.plist
+*.dSYM/
 
-# OS files
+# ========== Platforms Native ==========
+*.xcuserstate
+*.xcworkspace
+*.xcsettings
+*.xcodeproj/
+*.pbxproj
+*.entitlements
+*.mobileprovision
+
+# ========== VS for Mac ==========
+.idea/
+.vscode/
+*.userprefs
+
+# ========== NuGet / Packages ==========
+*.nupkg
+*.snupkg
+*.nuspec
+packages/
+*.symbols.nupkg
+project.lock.json
+project.fragment.lock.json
+.nuget/
+
+# ========== Logs ==========
+*.log
+logs/
+
+# ========== OS files ==========
 .DS_Store
 Thumbs.db
+ehthumbs.db
+Icon?
+Desktop.ini
 
-# Logs
-*.log
+# ========== Rider / JetBrains ==========
+.idea/
+*.sln.iml
+
+# ========== Test Results ==========
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+
