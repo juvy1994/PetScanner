@@ -17,6 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\PS.API\PS.API.csproj" />
     <ProjectReference Include="..\PS.Core\PS.Core.csproj" />
     <ProjectReference Include="..\PS.Infrastructure\PS.Infrastructure.csproj" />
   </ItemGroup>
