@@ -6,4 +6,9 @@ public partial class SettingPage : ContentPage
 	{
 		InitializeComponent();
 	}
+
+    private void btnSiguenos_Clicked(object sender, EventArgs e)
+    {
+
+    }
 }

@@ -9,15 +9,25 @@ public partial class LoadPage : ContentPage
 
     private void btnTakePhoto_Clicked(object sender, EventArgs e)
     {
-        Navigation.PushAsync(new Views.WaitingPage());
+        //Navigation.PushAsync(new Views.WaitingPage());
     }
 
     private void btnUploadPhoto_Clicked(object sender, EventArgs e)
     {
-        Navigation.PushAsync(new Views.WaitingPage());
+        //Navigation.PushAsync(new Views.WaitingPage());
     }
 
     private void btnSearch_Clicked(object sender, EventArgs e)
+    {
+        Navigation.PushAsync(new Views.WaitingPage());
+    }
+
+    private void imbTomarFoto_Clicked(object sender, EventArgs e)
+    {
+        Navigation.PushAsync(new Views.WaitingPage());
+    }
+
+    private void imbSubirImagen_Clicked(object sender, EventArgs e)
     {
         Navigation.PushAsync(new Views.WaitingPage());
     }

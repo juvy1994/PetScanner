@@ -2,20 +2,27 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="PS.UI.Maui.Views.WaitingPage"
-             Title="WaitingPage">
-    <VerticalStackLayout>
+             Title="WaitingPage" Style="{StaticResource FondoColor}">
+
+    <VerticalStackLayout Style="{StaticResource verticalL}">
         <Label 
             Text="Cargando ..."
             VerticalOptions="Center" 
-            HorizontalOptions="Center" />
+            HorizontalOptions="Center" 
+            Style="{StaticResource LblTitulo}"/>
+        
         <Image Grid.Row="1"
                Grid.ColumnSpan="2"
-               Source="dotnet_bot.png"
-               MinimumWidthRequest="100"
-               MaximumHeightRequest="100"/>
-        <ActivityIndicator IsRunning="true"/>
+               Source="imgvacia.png"
+               Style="{StaticResource imgBusqueda}"/>
+        
+        <ActivityIndicator IsRunning="true"
+                           Style="{StaticResource RuedaGiratoria}"/>
+        
         <Button x:Name="btnResult"
                 Text="Ver Resultado"
-                Clicked="btnResult_Clicked"/>
+                Clicked="btnResult_Clicked"
+                Style="{StaticResource Botones}"/>
     </VerticalStackLayout>
+    
 </ContentPage>

@@ -6,40 +6,76 @@
     xmlns:local="clr-namespace:PS.UI.Maui.Views"
     Shell.FlyoutBehavior="Flyout"
     Shell.TabBarIsVisible="False"
-    Title="PS.UI.Maui">
+    Title="Menu"
+    BackgroundColor="Black">
 
     <Shell.FlyoutHeader>
-        <VerticalStackLayout>
-            <Image Source="dotnet_bot.png"
-                   MaximumWidthRequest="50"
-                   MinimumWidthRequest="50"/>
-            <Label
-                Text="PetScanner"
-                HorizontalTextAlignment="Center"/>
+        <VerticalStackLayout Padding="20" Spacing="10" BackgroundColor="#FAF7F4">
+            <Image Source="huella.png"
+                   HorizontalOptions="Center"
+                   VerticalOptions="Center"
+                   HeightRequest="100"
+                   WidthRequest="100"
+                   Aspect="AspectFit" 
+                   Margin="0,0,0,10"/>
+
+            <Label Text="PetScan"
+                   FontSize="28"
+                   FontAttributes="Bold"
+                   HorizontalTextAlignment="Center"
+                   TextColor="#000000" 
+                   FontFamily="Helvetica"/>
+
+            <Label Text="Identifica animales fácilmente"
+                   FontSize="14"
+                   HorizontalTextAlignment="Center"
+                   TextColor="#666666"
+                   FontFamily="Helvetica"/>
+
         </VerticalStackLayout>
     </Shell.FlyoutHeader>
+
+    <Shell.ItemTemplate>
+        <DataTemplate>
+            <Grid Padding="10" ColumnDefinitions="Auto,*" ColumnSpacing="10">
+                <Image Source="{Binding Icon}"
+                   HeightRequest="24"
+                   WidthRequest="24"
+                   VerticalOptions="Center" />
+                <Label Grid.Column="1"
+                   Text="{Binding Title}"
+                   FontSize="16"
+                   FontAttributes="Bold"
+                   TextColor="Black"
+                   VerticalOptions="Center"
+                   FontFamily="Helvetica" />
+            </Grid>
+        </DataTemplate>
+    </Shell.ItemTemplate>
+
 
     <FlyoutItem Title="Home" FlyoutDisplayOptions="AsMultipleItems">
         <ShellContent 
             Title="Home"
             ContentTemplate="{DataTemplate local:MainPage}"
             Route="MainPage" 
-                Icon="dotnet_bot.png"/>
+            Icon="homemi.png"/>
+
         <ShellContent
             Title="Identificar mascotas"
             ContentTemplate="{DataTemplate local:LoadPage}"
             Route="LoadPage" 
-                Icon="dotnet_bot.png"/>
+            Icon="searchmi.png"/>
         <ShellContent
              Title="Historial"
              ContentTemplate="{DataTemplate local:HistoryPage}"
              Route="HistoryPage" 
-                 Icon="dotnet_bot.png"/>
+             Icon="foldermi.png"/>
         <ShellContent
             Title="Ajustes"
             ContentTemplate="{DataTemplate local:SettingPage}"
             Route="SettingPage" 
-                Icon="dotnet_bot.png"/>
+            Icon="settingmi.png"/>
     </FlyoutItem>
 
 </Shell>

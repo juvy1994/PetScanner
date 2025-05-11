@@ -2,11 +2,30 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="PS.UI.Maui.Views.SettingPage"
-             Title="SettingPage">
-    <VerticalStackLayout>
-        <Label 
-            Text="Configuraciones"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
-    </VerticalStackLayout>
+             Title="SettingPage" Style="{StaticResource FondoColor}">
+
+    <ScrollView>
+        <VerticalStackLayout Style="{StaticResource verticalL}">
+            <Label Text="Configuraciones"
+               Style="{StaticResource LblTitulo}"/>
+
+            <Label Text="Información de los desarrolladores"
+               Style="{StaticResource lblNormal}">
+            </Label>
+
+            <Label  Text="Kevin Tigse, Carlos Flores, Edwin Guaman, Julio Vizñay"
+                Style="{StaticResource lblNormal}">
+            </Label>
+
+            <Button x:Name="btnSiguenos"
+                    Text="Síguenos"
+                    Clicked="btnSiguenos_Clicked"
+                    Style="{StaticResource Botones}"/>
+
+            <Label  Text="Versión 1.0"
+                    Style="{StaticResource lblNormal}">
+            </Label>
+
+        </VerticalStackLayout>
+    </ScrollView>
 </ContentPage>

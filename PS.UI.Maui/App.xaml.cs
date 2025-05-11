@@ -5,8 +5,9 @@
         public App()
         {
             InitializeComponent();
-
-            MainPage = new NavigationPage(new AppShell());
+            //MainPage = new NavigationPage(new AppShell());
+            //SE CAMBIO POR QUE NO SE MOSTRABA EL MENU:
+            MainPage = new AppShell();
         }
     }
 }
