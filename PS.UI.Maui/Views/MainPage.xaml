@@ -5,7 +5,7 @@
              Title="MainPage">
     <VerticalStackLayout>
         <Label 
-            Text="Bienvenido"
+            Text="Bienvenido PRUEBA "
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
 
