@@ -129,6 +129,10 @@
               "target": "Package",
               "version": "[35.6.3, )"
             },
+            "FirebaseDatabase.net": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
             "Microsoft.AspNetCore.Http.Features": {
               "target": "Package",
               "version": "[5.0.17, )"
@@ -144,6 +148,10 @@
             "Microsoft.Extensions.Configuration.Abstractions": {
               "target": "Package",
               "version": "[8.0.0, )"
+            },
+            "sqlite-net-pcl": {
+              "target": "Package",
+              "version": "[1.9.172, )"
             }
           },
           "imports": [
