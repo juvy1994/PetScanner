@@ -965,7 +965,7 @@
           }
         }
       },
-      "Microsoft.NET.ILLink.Tasks/8.0.12": {
+      "Microsoft.NET.ILLink.Tasks/8.0.15": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
@@ -4514,7 +4514,7 @@
           }
         }
       },
-      "Microsoft.NET.ILLink.Tasks/8.0.12": {
+      "Microsoft.NET.ILLink.Tasks/8.0.15": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
@@ -7993,7 +7993,7 @@
           }
         }
       },
-      "Microsoft.NET.ILLink.Tasks/8.0.12": {
+      "Microsoft.NET.ILLink.Tasks/8.0.15": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
@@ -11472,7 +11472,7 @@
           }
         }
       },
-      "Microsoft.NET.ILLink.Tasks/8.0.12": {
+      "Microsoft.NET.ILLink.Tasks/8.0.15": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
@@ -14951,7 +14951,7 @@
           }
         }
       },
-      "Microsoft.NET.ILLink.Tasks/8.0.12": {
+      "Microsoft.NET.ILLink.Tasks/8.0.15": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
@@ -18430,7 +18430,7 @@
           }
         }
       },
-      "Microsoft.NET.ILLink.Tasks/8.0.12": {
+      "Microsoft.NET.ILLink.Tasks/8.0.15": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
@@ -21909,7 +21909,7 @@
           }
         }
       },
-      "Microsoft.NET.ILLink.Tasks/8.0.12": {
+      "Microsoft.NET.ILLink.Tasks/8.0.15": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
@@ -25388,7 +25388,7 @@
           }
         }
       },
-      "Microsoft.NET.ILLink.Tasks/8.0.12": {
+      "Microsoft.NET.ILLink.Tasks/8.0.15": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
@@ -28863,7 +28863,7 @@
           }
         }
       },
-      "Microsoft.NET.ILLink.Tasks/8.0.12": {
+      "Microsoft.NET.ILLink.Tasks/8.0.15": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
@@ -31484,7 +31484,7 @@
           }
         }
       },
-      "Microsoft.NET.ILLink.Tasks/8.0.12": {
+      "Microsoft.NET.ILLink.Tasks/8.0.15": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
@@ -34406,7 +34406,7 @@
           }
         }
       },
-      "Microsoft.NET.ILLink.Tasks/8.0.12": {
+      "Microsoft.NET.ILLink.Tasks/8.0.15": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
@@ -37328,7 +37328,7 @@
           }
         }
       },
-      "Microsoft.NET.ILLink.Tasks/8.0.12": {
+      "Microsoft.NET.ILLink.Tasks/8.0.15": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
@@ -40250,7 +40250,7 @@
           }
         }
       },
-      "Microsoft.NET.ILLink.Tasks/8.0.12": {
+      "Microsoft.NET.ILLink.Tasks/8.0.15": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
@@ -43172,7 +43172,7 @@
           }
         }
       },
-      "Microsoft.NET.ILLink.Tasks/8.0.12": {
+      "Microsoft.NET.ILLink.Tasks/8.0.15": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
@@ -46094,7 +46094,7 @@
           }
         }
       },
-      "Microsoft.NET.ILLink.Tasks/8.0.12": {
+      "Microsoft.NET.ILLink.Tasks/8.0.15": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
@@ -49016,7 +49016,7 @@
           }
         }
       },
-      "Microsoft.NET.ILLink.Tasks/8.0.12": {
+      "Microsoft.NET.ILLink.Tasks/8.0.15": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
@@ -51934,7 +51934,7 @@
           }
         }
       },
-      "Microsoft.NET.ILLink.Tasks/8.0.12": {
+      "Microsoft.NET.ILLink.Tasks/8.0.15": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
@@ -54555,7 +54555,7 @@
           }
         }
       },
-      "Microsoft.NET.ILLink.Tasks/8.0.12": {
+      "Microsoft.NET.ILLink.Tasks/8.0.15": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
@@ -57477,7 +57477,7 @@
           }
         }
       },
-      "Microsoft.NET.ILLink.Tasks/8.0.12": {
+      "Microsoft.NET.ILLink.Tasks/8.0.15": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
@@ -60399,7 +60399,7 @@
           }
         }
       },
-      "Microsoft.NET.ILLink.Tasks/8.0.12": {
+      "Microsoft.NET.ILLink.Tasks/8.0.15": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
@@ -63321,7 +63321,7 @@
           }
         }
       },
-      "Microsoft.NET.ILLink.Tasks/8.0.12": {
+      "Microsoft.NET.ILLink.Tasks/8.0.15": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
@@ -66243,7 +66243,7 @@
           }
         }
       },
-      "Microsoft.NET.ILLink.Tasks/8.0.12": {
+      "Microsoft.NET.ILLink.Tasks/8.0.15": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
@@ -69165,7 +69165,7 @@
           }
         }
       },
-      "Microsoft.NET.ILLink.Tasks/8.0.12": {
+      "Microsoft.NET.ILLink.Tasks/8.0.15": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
@@ -72087,7 +72087,7 @@
           }
         }
       },
-      "Microsoft.NET.ILLink.Tasks/8.0.12": {
+      "Microsoft.NET.ILLink.Tasks/8.0.15": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
@@ -100100,10 +100100,10 @@
         "microsoft.net.http.headers.nuspec"
       ]
     },
-    "Microsoft.NET.ILLink.Tasks/8.0.12": {
-      "sha512": "FV4HnQ3JI15PHnJ5PGTbz+rYvrih42oLi/7UMIshNwCwUZhTq13UzrggtXk4ygrcMcN+4jsS6hhshx2p/Zd0ig==",
+    "Microsoft.NET.ILLink.Tasks/8.0.15": {
+      "sha512": "s4eXlcRGyHeCgFUGQnhq0e/SCHBPp0jOHgMqZg3fQ2OCHJSm1aOUhI6RFWuVIcEb9ig2WgI2kWukk8wu72EbUQ==",
       "type": "package",
-      "path": "microsoft.net.illink.tasks/8.0.12",
+      "path": "microsoft.net.illink.tasks/8.0.15",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
@@ -100117,7 +100117,7 @@
         "build/Microsoft.NET.ILLink.Analyzers.props",
         "build/Microsoft.NET.ILLink.Tasks.props",
         "build/Microsoft.NET.ILLink.targets",
-        "microsoft.net.illink.tasks.8.0.12.nupkg.sha512",
+        "microsoft.net.illink.tasks.8.0.15.nupkg.sha512",
         "microsoft.net.illink.tasks.nuspec",
         "tools/net472/ILLink.Tasks.dll",
         "tools/net472/ILLink.Tasks.dll.config",
@@ -108179,7 +108179,7 @@
       "Microsoft.Extensions.Logging.Debug >= 8.0.1",
       "Microsoft.Maui.Controls >= 8.0.100",
       "Microsoft.Maui.Controls.Compatibility >= 8.0.100",
-      "Microsoft.NET.ILLink.Tasks >= 8.0.12",
+      "Microsoft.NET.ILLink.Tasks >= 8.0.15",
       "PS.Core >= 1.0.0",
       "PS.Infrastructure >= 1.0.0"
     ],
@@ -108187,7 +108187,7 @@
       "Microsoft.Extensions.Logging.Debug >= 8.0.1",
       "Microsoft.Maui.Controls >= 8.0.100",
       "Microsoft.Maui.Controls.Compatibility >= 8.0.100",
-      "Microsoft.NET.ILLink.Tasks >= 8.0.12",
+      "Microsoft.NET.ILLink.Tasks >= 8.0.15",
       "PS.Core >= 1.0.0",
       "PS.Infrastructure >= 1.0.0"
     ],
@@ -108195,7 +108195,7 @@
       "Microsoft.Extensions.Logging.Debug >= 8.0.1",
       "Microsoft.Maui.Controls >= 8.0.100",
       "Microsoft.Maui.Controls.Compatibility >= 8.0.100",
-      "Microsoft.NET.ILLink.Tasks >= 8.0.12",
+      "Microsoft.NET.ILLink.Tasks >= 8.0.15",
       "PS.Core >= 1.0.0",
       "PS.Infrastructure >= 1.0.0"
     ],
@@ -108208,24 +108208,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\carlo\\.nuget\\packages\\": {},
+    "C:\\Users\\Julio\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\MAUI\\PetScan_Backend\\PS.UI.Maui\\PS.UI.Maui.csproj",
+      "projectUniqueName": "C:\\Users\\Julio\\source\\repos\\PetScanner\\PS.UI.Maui\\PS.UI.Maui.csproj",
       "projectName": "PS.UI.Maui",
-      "projectPath": "E:\\MAUI\\PetScan_Backend\\PS.UI.Maui\\PS.UI.Maui.csproj",
-      "packagesPath": "C:\\Users\\carlo\\.nuget\\packages\\",
-      "outputPath": "E:\\MAUI\\PetScan_Backend\\PS.UI.Maui\\obj\\",
+      "projectPath": "C:\\Users\\Julio\\source\\repos\\PetScanner\\PS.UI.Maui\\PS.UI.Maui.csproj",
+      "packagesPath": "C:\\Users\\Julio\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Julio\\source\\repos\\PetScanner\\PS.UI.Maui\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\carlo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Julio\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -108244,44 +108244,44 @@
         "net8.0-android34.0": {
           "targetAlias": "net8.0-android",
           "projectReferences": {
-            "E:\\MAUI\\PetScan_Backend\\PS.Core\\PS.Core.csproj": {
-              "projectPath": "E:\\MAUI\\PetScan_Backend\\PS.Core\\PS.Core.csproj"
+            "C:\\Users\\Julio\\source\\repos\\PetScanner\\PS.Core\\PS.Core.csproj": {
+              "projectPath": "C:\\Users\\Julio\\source\\repos\\PetScanner\\PS.Core\\PS.Core.csproj"
             },
-            "E:\\MAUI\\PetScan_Backend\\PS.Infrastructure\\PS.Infrastructure.csproj": {
-              "projectPath": "E:\\MAUI\\PetScan_Backend\\PS.Infrastructure\\PS.Infrastructure.csproj"
+            "C:\\Users\\Julio\\source\\repos\\PetScanner\\PS.Infrastructure\\PS.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\Julio\\source\\repos\\PetScanner\\PS.Infrastructure\\PS.Infrastructure.csproj"
             }
           }
         },
         "net8.0-ios18.0": {
           "targetAlias": "net8.0-ios",
           "projectReferences": {
-            "E:\\MAUI\\PetScan_Backend\\PS.Core\\PS.Core.csproj": {
-              "projectPath": "E:\\MAUI\\PetScan_Backend\\PS.Core\\PS.Core.csproj"
+            "C:\\Users\\Julio\\source\\repos\\PetScanner\\PS.Core\\PS.Core.csproj": {
+              "projectPath": "C:\\Users\\Julio\\source\\repos\\PetScanner\\PS.Core\\PS.Core.csproj"
             },
-            "E:\\MAUI\\PetScan_Backend\\PS.Infrastructure\\PS.Infrastructure.csproj": {
-              "projectPath": "E:\\MAUI\\PetScan_Backend\\PS.Infrastructure\\PS.Infrastructure.csproj"
+            "C:\\Users\\Julio\\source\\repos\\PetScanner\\PS.Infrastructure\\PS.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\Julio\\source\\repos\\PetScanner\\PS.Infrastructure\\PS.Infrastructure.csproj"
             }
           }
         },
         "net8.0-maccatalyst18.0": {
           "targetAlias": "net8.0-maccatalyst",
           "projectReferences": {
-            "E:\\MAUI\\PetScan_Backend\\PS.Core\\PS.Core.csproj": {
-              "projectPath": "E:\\MAUI\\PetScan_Backend\\PS.Core\\PS.Core.csproj"
+            "C:\\Users\\Julio\\source\\repos\\PetScanner\\PS.Core\\PS.Core.csproj": {
+              "projectPath": "C:\\Users\\Julio\\source\\repos\\PetScanner\\PS.Core\\PS.Core.csproj"
             },
-            "E:\\MAUI\\PetScan_Backend\\PS.Infrastructure\\PS.Infrastructure.csproj": {
-              "projectPath": "E:\\MAUI\\PetScan_Backend\\PS.Infrastructure\\PS.Infrastructure.csproj"
+            "C:\\Users\\Julio\\source\\repos\\PetScanner\\PS.Infrastructure\\PS.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\Julio\\source\\repos\\PetScanner\\PS.Infrastructure\\PS.Infrastructure.csproj"
             }
           }
         },
         "net8.0-windows10.0.19041": {
           "targetAlias": "net8.0-windows10.0.19041.0",
           "projectReferences": {
-            "E:\\MAUI\\PetScan_Backend\\PS.Core\\PS.Core.csproj": {
-              "projectPath": "E:\\MAUI\\PetScan_Backend\\PS.Core\\PS.Core.csproj"
+            "C:\\Users\\Julio\\source\\repos\\PetScanner\\PS.Core\\PS.Core.csproj": {
+              "projectPath": "C:\\Users\\Julio\\source\\repos\\PetScanner\\PS.Core\\PS.Core.csproj"
             },
-            "E:\\MAUI\\PetScan_Backend\\PS.Infrastructure\\PS.Infrastructure.csproj": {
-              "projectPath": "E:\\MAUI\\PetScan_Backend\\PS.Infrastructure\\PS.Infrastructure.csproj"
+            "C:\\Users\\Julio\\source\\repos\\PetScanner\\PS.Infrastructure\\PS.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\Julio\\source\\repos\\PetScanner\\PS.Infrastructure\\PS.Infrastructure.csproj"
             }
           }
         }
@@ -108296,7 +108296,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.100"
+      "SdkAnalysisLevel": "9.0.200"
     },
     "frameworks": {
       "net8.0-android34.0": {
@@ -108317,7 +108317,7 @@
           "Microsoft.NET.ILLink.Tasks": {
             "suppressParent": "All",
             "target": "Package",
-            "version": "[8.0.12, )",
+            "version": "[8.0.15, )",
             "autoReferenced": true
           }
         },
@@ -108335,23 +108335,23 @@
         "downloadDependencies": [
           {
             "name": "Microsoft.Android.Ref.34",
-            "version": "[34.0.145, 34.0.145]"
+            "version": "[34.0.147, 34.0.147]"
           },
           {
             "name": "Microsoft.Android.Runtime.34.android-arm",
-            "version": "[34.0.145, 34.0.145]"
+            "version": "[34.0.147, 34.0.147]"
           },
           {
             "name": "Microsoft.Android.Runtime.34.android-arm64",
-            "version": "[34.0.145, 34.0.145]"
+            "version": "[34.0.147, 34.0.147]"
           },
           {
             "name": "Microsoft.Android.Runtime.34.android-x64",
-            "version": "[34.0.145, 34.0.145]"
+            "version": "[34.0.147, 34.0.147]"
           },
           {
             "name": "Microsoft.Android.Runtime.34.android-x86",
-            "version": "[34.0.145, 34.0.145]"
+            "version": "[34.0.147, 34.0.147]"
           }
         ],
         "frameworkReferences": {
@@ -108362,7 +108362,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
       },
       "net8.0-ios18.0": {
         "targetAlias": "net8.0-ios",
@@ -108382,7 +108382,7 @@
           "Microsoft.NET.ILLink.Tasks": {
             "suppressParent": "All",
             "target": "Package",
-            "version": "[8.0.12, )",
+            "version": "[8.0.15, )",
             "autoReferenced": true
           }
         },
@@ -108400,11 +108400,11 @@
         "downloadDependencies": [
           {
             "name": "Microsoft.iOS.Ref.net8.0_18.0",
-            "version": "[18.0.8316, 18.0.8316]"
+            "version": "[18.0.8319, 18.0.8319]"
           },
           {
             "name": "Microsoft.iOS.Runtime.iossimulator-x64.net8.0_18.0",
-            "version": "[18.0.8316, 18.0.8316]"
+            "version": "[18.0.8319, 18.0.8319]"
           }
         ],
         "frameworkReferences": {
@@ -108415,7 +108415,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
       },
       "net8.0-maccatalyst18.0": {
         "targetAlias": "net8.0-maccatalyst",
@@ -108435,7 +108435,7 @@
           "Microsoft.NET.ILLink.Tasks": {
             "suppressParent": "All",
             "target": "Package",
-            "version": "[8.0.12, )",
+            "version": "[8.0.15, )",
             "autoReferenced": true
           }
         },
@@ -108454,11 +108454,11 @@
         "downloadDependencies": [
           {
             "name": "Microsoft.MacCatalyst.Ref.net8.0_18.0",
-            "version": "[18.0.8316, 18.0.8316]"
+            "version": "[18.0.8319, 18.0.8319]"
           },
           {
             "name": "Microsoft.MacCatalyst.Runtime.maccatalyst-x64.net8.0_18.0",
-            "version": "[18.0.8316, 18.0.8316]"
+            "version": "[18.0.8319, 18.0.8319]"
           }
         ],
         "frameworkReferences": {
@@ -108469,7 +108469,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
       },
       "net8.0-windows10.0.19041": {
         "targetAlias": "net8.0-windows10.0.19041.0",
@@ -108512,7 +108512,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203\\RuntimeIdentifierGraph.json"
       }
     },
     "runtimes": {
