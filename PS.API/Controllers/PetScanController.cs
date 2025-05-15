@@ -2,6 +2,8 @@
 
 using PS.Infrastructure.DTOs;
 using PS.Infrastructure.Interfaces;
+using PS.Infrastructure.Interfaces.Repository;
+using PS.Infrastructure.Models;
 
 namespace PS.API.Controllers
 {
@@ -12,12 +14,14 @@ namespace PS.API.Controllers
         private readonly IImageAnalysisService _imageService;
         private readonly IChatService _chatService;
         private readonly IOpenAiVisionService _aiVisionService;
+        private readonly IMetricasRepository _metricasRepo;
 
-        public PetScanController(IImageAnalysisService imageService, IChatService chatService, IOpenAiVisionService aiVisionService)
+        public PetScanController(IImageAnalysisService imageService, IChatService chatService, IOpenAiVisionService aiVisionService, IMetricasRepository metricasRepo)
         {
             _imageService = imageService;
             _chatService = chatService;
             _aiVisionService = aiVisionService;
+            _metricasRepo = metricasRepo;
         }
 
         [HttpPost("scan")]
@@ -36,6 +40,20 @@ namespace PS.API.Controllers
                 });
             }
             petInfo.UrlImage = imageUrl ?? string.Empty;
+
+            await _metricasRepo.CrearAsync(new Metrica
+            {
+                Id = Guid.NewGuid(),
+                Especie = petInfo.especie,
+                NombreRaza = petInfo.nombre_raza,
+                Origen = petInfo.origen,
+                Usuario = Guid.Empty,
+                FechaRegistro = DateTime.UtcNow,
+                FechaModificacion = DateTime.UtcNow,
+                Estado = true
+            });
+
+
             return Ok(petInfo);
         }
     }
