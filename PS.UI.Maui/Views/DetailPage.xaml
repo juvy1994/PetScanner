@@ -16,6 +16,63 @@
             <Image  Source="imgvacia.png"
                     Style="{StaticResource imgBusqueda}"/>
 
+            <Label  Text="Datos Generales"
+                    Style="{StaticResource lblTituloDetalle}"/>
+
+            <Grid Style="{StaticResource gridDetalles}">
+                <Grid.RowDefinitions>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+
+                <Label Text="Nombre raza"
+                        Grid.Row="0"
+                        Grid.Column="0"
+                        Style="{StaticResource lblCabeceraDetalle}">
+                </Label>
+
+                <Label  Text="Especie"
+                        Grid.Row="0"
+                        Grid.Column="1"
+                        Style="{StaticResource lblCabeceraDetalle}">
+                </Label>
+
+                <Label  Text="Origen"
+                        Grid.Row="0"
+                        Grid.Column="2"
+                        Style="{StaticResource lblCabeceraDetalle}">
+                </Label>
+
+                <!--CONTENIDO-->
+
+                <Label  x:Name="lblNombreRaza"
+                        Text="Lorem Ipsum is simply dummy"
+                        Grid.Row="1"
+                        Grid.Column="0"
+                        Style="{StaticResource lblContenidoDetalle}">
+                </Label>
+
+                <Label  x:Name="lblEspecie"
+                        Text="Lorem Ipsum is simply dummy"
+                        Grid.Row="1"
+                        Grid.Column="1"
+                        Style="{StaticResource lblContenidoDetalle}">
+                </Label>
+
+                <Label  x:Name="lblOrigen"
+                        Text="Lorem Ipsum is simply dummy"
+                        Grid.Row="1"
+                        Grid.Column="2"
+                        Style="{StaticResource lblContenidoDetalle}">
+                </Label>
+
+            </Grid>
+
             <Label  Text="Características físicas"
                     Style="{StaticResource lblTituloDetalle}"/>
 

@@ -9,6 +9,7 @@ public partial class HistoryPage : ContentPage
 
     private void btnVerDetalle_Clicked(object sender, EventArgs e)
     {
+        this.gridDetalle0.IsVisible = true;
         this.gridDetalle1.IsVisible = true;
         this.gridDetalle2.IsVisible = true;
         this.gridDetalle3.IsVisible = true;
@@ -23,6 +24,7 @@ public partial class HistoryPage : ContentPage
 
     private void btnMinimizar_Clicked(object sender, EventArgs e)
     {
+        this.gridDetalle0.IsVisible = false;
         this.gridDetalle1.IsVisible = false;
         this.gridDetalle2.IsVisible = false;
         this.gridDetalle3.IsVisible = false;

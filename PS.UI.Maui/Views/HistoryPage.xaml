@@ -19,6 +19,7 @@
                     <RowDefinition></RowDefinition>
                     <RowDefinition></RowDefinition>
                     <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
                 </Grid.RowDefinitions>
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition/>
@@ -55,13 +56,79 @@
                 </Button>
 
                 <!--DETALLES OCULTOS INCIALMENTE-->
-                <Grid   x:Name="gridDetalle1"
+
+                <!--DETALLE 0-->
+                <Grid   x:Name="gridDetalle0"
                         Grid.Row="2"
                         Grid.ColumnSpan="3"
                         Style="{StaticResource gridDetalles}"
                         IsVisible="False">
                     <Grid.RowDefinitions>
                         <RowDefinition></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+
+                    <Label  Grid.Row="0"
+                            Grid.ColumnSpan="3"
+                            Text="Datos Generales"
+                            Style="{StaticResource lblTituloDetalle}"/>
+
+                    <Label  Text="Nombre raza"
+                            Grid.Row="1"
+                            Grid.Column="0"
+                            Style="{StaticResource lblCabeceraDetalle}">
+                    </Label>
+
+                    <Label  Text="Especie"
+                            Grid.Row="1"
+                            Grid.Column="1"
+                            Style="{StaticResource lblCabeceraDetalle}">
+                    </Label>
+
+                    <Label  Text="Origen"
+                            Grid.Row="1"
+                            Grid.Column="2"
+                            Style="{StaticResource lblCabeceraDetalle}">
+                    </Label>
+
+                    <!--CONTENIDO-->
+
+                    <Label  x:Name="lblNombreRaza"
+                            Text="Lorem Ipsum is simply dummy"
+                            Grid.Row="2"
+                            Grid.Column="0"
+                            Style="{StaticResource lblContenidoDetalle}">
+                    </Label>
+
+                    <Label  x:Name="lblEspecie"
+                            Text="Lorem Ipsum is simply dummy"
+                            Grid.Row="2"
+                            Grid.Column="1"
+                            Style="{StaticResource lblContenidoDetalle}">
+                    </Label>
+
+                    <Label  x:Name="lblOrigen"
+                            Text="Lorem Ipsum is simply dummy"
+                            Grid.Row="2"
+                            Grid.Column="2"
+                            Style="{StaticResource lblContenidoDetalle}">
+                    </Label>
+
+                </Grid>
+
+                <!--DETALLE 1-->
+                <Grid   x:Name="gridDetalle1"
+                        Grid.Row="3"
+                        Grid.ColumnSpan="3"
+                        Style="{StaticResource gridDetalles}"
+                        IsVisible="False">
+                    <Grid.RowDefinitions>
                         <RowDefinition></RowDefinition>
                         <RowDefinition></RowDefinition>
                         <RowDefinition></RowDefinition>
@@ -137,7 +204,7 @@
                 <!--DETALLE2-->
 
                 <Grid   x:Name="gridDetalle2"
-                        Grid.Row="3"
+                        Grid.Row="4"
                         Grid.ColumnSpan="3"
                         IsVisible="False"
                         Style="{StaticResource gridDetalles}">
@@ -199,11 +266,11 @@
                     </Label>
 
                 </Grid>
-                
+
                 <!--DETALLE 3-->
 
                 <Grid   x:Name="gridDetalle3"
-                        Grid.Row="4"
+                        Grid.Row="5"
                         Grid.ColumnSpan="3"
                         IsVisible="False"
                         Style="{StaticResource gridDetalles}">
@@ -254,7 +321,7 @@
 
                 <!--DETALLE 4-->
                 <Grid   x:Name="gridDetalle4"
-                        Grid.Row="5"
+                        Grid.Row="6"
                         Grid.ColumnSpan="3"
                         IsVisible="False"
                         Style="{StaticResource gridDetalles}">
@@ -318,7 +385,7 @@
 
                 <Button x:Name="btnMinimizar"
                         Text="Minimizar"
-                        Grid.Row="6"
+                        Grid.Row="7"
                         Grid.ColumnSpan="3"
                         Clicked="btnMinimizar_Clicked"
                         IsVisible="False"
