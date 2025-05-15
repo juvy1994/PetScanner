@@ -68,3 +68,5 @@ TestResults/
 *.coverage
 *.coveragexml
 
+/PS.API/Properties/serviceDependencies.json
+/PS.API/Properties/serviceDependencies.petscan - Web Deploy.json

@@ -7,12 +7,25 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.0" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\PS.Core\PS.Core.csproj" />
     <ProjectReference Include="..\PS.Infrastructure\PS.Infrastructure.csproj" />
+    <Content Remove="appsettings.json" />
+    <Content Remove="appsettings.Development.json" />
+    <Content Remove="Properties\appsettings.json" />
   </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Properties\appsettings.json" />
+  </ItemGroup>
+
+  <Target Name="RemoveAppSettingsOnPublish" AfterTargets="Publish">
+    <Delete Files="$(PublishDir)appsettings.json" />
+    <Delete Files="$(PublishDir)appsettings.Development.json" />
+  </Target>
 
 </Project>
