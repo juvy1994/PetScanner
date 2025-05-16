@@ -14,11 +14,18 @@ namespace PS.Infrastructure.DTOs
         public string Nombre { get; set; }
         public string Especie { get; set; }
         public string Origen { get; set; }
-        public string Descripcion { get; set; }
-        public string Comportamiento { get; set; }
-        public string Alimentacion { get; set; }
-        public string CuidadosEspeciales { get; set; }
-        public string EnfermedadesComunes { get; set; }
+        public string CaracteristicasFisicasTamano { get; set; }
+        public string CaracteristicasFisicasPeso { get; set; }
+        public string CaracteristicasFisicasEsperanzaVida { get; set; }
+        public string CaracteristicasFisicasPelaje { get; set; }
+        public string AlimentacionTipoRecomendada { get; set; }
+        public string AlimentacionPorciones { get; set; }
+        public string AlimentacionFrecuencia { get; set; }
+        public string CuidadosEspecialesEjercicio { get; set; }
+        public string CuidadosEspecialesSocializacion { get; set; }
+        public string EnfermedadNombre { get; set; }
+        public string EnfermedadDescripcion { get; set; }
+        public string EnfermedadPrevencion { get; set; }
         public string UrlImage { get; set; }
         public bool Estado { get; set; }
         public bool Sincronizado { get; set; }
@@ -32,11 +39,18 @@ namespace PS.Infrastructure.DTOs
             Nombre = this.Nombre,
             Especie = this.Especie,
             Origen = this.Origen,
-            Descripcion = this.Descripcion,
-            Comportamiento = this.Comportamiento,
-            Alimentacion = this.Alimentacion,
-            CuidadosEspeciales = this.CuidadosEspeciales,
-            EnfermedadesComunes = this.EnfermedadesComunes,
+            CaracteristicasFisicasTamano = this.CaracteristicasFisicasTamano,
+            CaracteristicasFisicasPeso = this.CaracteristicasFisicasPeso,
+            CaracteristicasFisicasEsperanzaVida = this.CaracteristicasFisicasEsperanzaVida,
+            CaracteristicasFisicasPelaje = this.CaracteristicasFisicasPelaje,
+            AlimentacionTipoRecomendada = this.AlimentacionTipoRecomendada,
+            AlimentacionPorciones = this.AlimentacionPorciones,
+            AlimentacionFrecuencia = this.AlimentacionFrecuencia,
+            CuidadosEspecialesEjercicio = this.CuidadosEspecialesEjercicio,
+            CuidadosEspecialesSocializacion = this.CuidadosEspecialesSocializacion,
+            EnfermedadNombre = this.EnfermedadNombre,
+            EnfermedadDescripcion = this.EnfermedadDescripcion,
+            EnfermedadPrevencion = this.EnfermedadPrevencion,
             UrlImage = this.UrlImage,
             Estado = this.Estado,
             Sincronizado = this.Sincronizado,
@@ -51,11 +65,18 @@ namespace PS.Infrastructure.DTOs
             Nombre = model.Nombre,
             Especie = model.Especie,
             Origen = model.Origen,
-            Descripcion = model.Descripcion,
-            Comportamiento = model.Comportamiento,
-            Alimentacion = model.Alimentacion,
-            CuidadosEspeciales = model.CuidadosEspeciales,
-            EnfermedadesComunes = model.EnfermedadesComunes,
+            CaracteristicasFisicasTamano = model.CaracteristicasFisicasTamano,
+            CaracteristicasFisicasPeso = model.CaracteristicasFisicasPeso,
+            CaracteristicasFisicasEsperanzaVida = model.CaracteristicasFisicasEsperanzaVida,
+            CaracteristicasFisicasPelaje = model.CaracteristicasFisicasPelaje,
+            AlimentacionTipoRecomendada = model.AlimentacionTipoRecomendada,
+            AlimentacionPorciones = model.AlimentacionPorciones,
+            AlimentacionFrecuencia = model.AlimentacionFrecuencia,
+            CuidadosEspecialesEjercicio = model.CuidadosEspecialesEjercicio,
+            CuidadosEspecialesSocializacion = model.CuidadosEspecialesSocializacion,
+            EnfermedadNombre = model.EnfermedadNombre,
+            EnfermedadDescripcion = model.EnfermedadDescripcion,
+            EnfermedadPrevencion = model.EnfermedadPrevencion,
             UrlImage = model.UrlImage,
             Estado = model.Estado,
             Sincronizado = model.Sincronizado,

@@ -1,10 +1,17 @@
+using PS.UI.Maui.ViewModels;
+
 namespace PS.UI.Maui.Views;
 
 public partial class HistoryPage : ContentPage
 {
-    public HistoryPage()
+    private readonly IServiceProvider _serviceProvider;
+    private readonly HistoryViewModel _viewModel;
+
+    public HistoryPage(IServiceProvider serviceProvider, HistoryViewModel viewModel)
     {
         InitializeComponent();
+        _serviceProvider = serviceProvider;
+        _viewModel = viewModel;
     }
 
     private void btnVerDetalle_Clicked(object sender, EventArgs e)

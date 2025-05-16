@@ -3,6 +3,8 @@ using PS.Core.Interfaces;
 using PS.Infrastructure.Data;
 using PS.Infrastructure.Repositories;
 using PS.UI.Maui.Services;
+using PS.UI.Maui.ViewModels;
+using PS.UI.Maui.Views;
 using SQLite;
 
 namespace PS.UI.Maui
@@ -21,7 +23,7 @@ namespace PS.UI.Maui
                 });
             // Configurar SQLite
             var dbPath = Path.Combine(FileSystem.AppDataDirectory, "pet_scan.db");
-            var dbContext = new SQLiteDbContext(dbPath);
+            builder.Services.AddSingleton(new SQLiteAsyncConnection(dbPath));
 
             builder.Services.AddSingleton(new SQLiteConnection(dbPath));
 
@@ -37,8 +39,14 @@ namespace PS.UI.Maui
             builder.Services.AddSingleton<SyncService>();
 
             // ViewModels y Views (los agregaremos más adelante)
-            //builder.Services.AddSingleton<UsuarioViewModel>();
-            //builder.Services.AddSingleton<UsuarioPage>();
+            builder.Services.AddTransient<MainPage>();
+            builder.Services.AddTransient<LoadPage>();
+            builder.Services.AddTransient<WaitingPage>();
+            builder.Services.AddTransient<DetailPage>();
+            builder.Services.AddTransient<HistoryPage>();
+
+            builder.Services.AddTransient<DetailViewModel>();
+            builder.Services.AddTransient<HistoryViewModel>();
 
 #if DEBUG
             builder.Logging.AddDebug();
