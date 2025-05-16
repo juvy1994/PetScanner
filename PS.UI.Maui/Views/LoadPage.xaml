@@ -30,7 +30,7 @@
                     </Label>
 
                     <ImageButton x:Name="imbTomarFoto"
-                            Clicked="imbTomarFoto_Clicked"
+                            Clicked="OnTomarFotoClicked"
                             Source="camerami.png"
                             Style="{StaticResource imgButton}">
                     </ImageButton>
@@ -48,7 +48,7 @@
                     </Label>
 
                     <ImageButton x:Name="imbSubirImagen"
-                             Clicked="imbSubirImagen_Clicked"
+                             Clicked="OnSubirDesdeGaleriaClicked"
                              Source="uploadmi.png"
                              Style="{StaticResource imgButton}">
                     </ImageButton>
@@ -56,13 +56,15 @@
                 </VerticalStackLayout>
             </Grid>
 
-            <Image  Source="imgvacia.png"
-        Style="{StaticResource imgBusqueda}"/>
+            <Image x:Name="FotoImage" 
+Style="{StaticResource imgBusqueda}"/>
 
             <Button x:Name="btnSearch"
-                Text="Buscar"
-                Clicked="btnSearch_Clicked"
-                Style="{StaticResource Botones}"/>
+        Text="Buscar"
+        Clicked="btnSearch_Clicked"
+        Style="{StaticResource Botones}"/>
+
+
 
         </VerticalStackLayout>
     </ScrollView>
