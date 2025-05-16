@@ -29,29 +29,46 @@ namespace PS.UI.Maui.Services
 
         public async Task SincronizarUsuariosAsync()
         {
+            if (!await ConnectivityInternet()) return;
 
-            var locales = _usuarioRepository.GetAll()
-                .Where(u => !u.Sincronizado).ToList();
+            var locales = await _usuarioRepository.GetAllAsync();
+            var noSincronizados = locales.Where(u => !u.Sincronizado).ToList();
 
-            foreach (var usuario in locales)
+            foreach (var usuario in noSincronizados)
             {
                 await _usuarioFirebaseService.SaveUsuarioAsync(usuario);
+
                 usuario.Sincronizado = true;
-                _usuarioRepository.Update(usuario);
+                await _usuarioRepository.UpdateAsync(usuario);
             }
         }
 
         public async Task SincronizarMascotasAsync()
         {
-            var locales = _mascotaRepository.GetAll().
-                Where(m => !m.Sincronizado).ToList();
+            if (!await ConnectivityInternet()) return;
 
-            foreach (var mascota in locales)
+            var locales = await _mascotaRepository.GetAllAsync();
+            var noSincronizadas = locales.Where(m => !m.Sincronizado).ToList();
+
+
+            foreach (var mascota in noSincronizadas)
             {
                 await _mascotaFirebaseService.SaveMascotaAsync(mascota);
+
                 mascota.Sincronizado = true;
-                _mascotaRepository.Update(mascota);
+                await _mascotaRepository.UpdateAsync(mascota);
             }
+        }
+
+        private async Task<bool> ConnectivityInternet()
+        {
+
+            if (Connectivity.Current.NetworkAccess != NetworkAccess.Internet)
+            {
+                await Shell.Current.DisplayAlert("Sin conexión", "Necesitas conexión a Internet para sincronizar.", "OK");
+                return false;
+            }
+            return true;
         }
     }
 }

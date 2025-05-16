@@ -9,6 +9,6 @@ namespace PS.Core.Interfaces
 {
     public interface IMascotaRepository : IBaseRepository<MascotaModel>
     {
-        List<MascotaModel> GetByUsuarioId(string usuarioId);
+        Task<List<MascotaModel>> GetByUsuarioIdAsync(string usuarioId);
     }
 }

@@ -10,37 +10,37 @@ namespace PS.Infrastructure.Repositories
 {
     public class BaseRepository<T> : IBaseRepository<T> where T : new()
     {
-        protected readonly SQLiteConnection _connection;
+        protected readonly SQLiteAsyncConnection _connection;
 
-        public BaseRepository(SQLiteConnection connection)
+        public BaseRepository(SQLiteAsyncConnection connection)
         {
             _connection = connection;
-            _connection.CreateTable<T>();
+            _connection.CreateTableAsync<T>().Wait();
         }
 
-        public virtual int Add(T entity)
+        public virtual async Task<int> AddAsync(T entity)
         {
-            return _connection.Insert(entity);
+            return await _connection.InsertAsync(entity);
         }
 
-        public virtual int Delete(T entity)
+        public virtual async Task<int> DeleteAsync(T entity)
         {
-            return _connection.Delete(entity);
+            return await _connection.DeleteAsync(entity);
         }
 
-        public virtual List<T> GetAll()
+        public virtual async Task<List<T>> GetAllAsync()
         {
-            return _connection.Table<T>().ToList();
+            return await _connection.Table<T>().ToListAsync();
         }
 
-        public virtual T GetById(string id)
+        public virtual async Task<T> GetByIdAsync(string id)
         {
-            return _connection.Find<T>(id);
+            return await _connection.FindAsync<T>(id);
         }
 
-        public virtual int Update(T entity)
+        public virtual async Task<int> UpdateAsync(T entity)
         {
-            return _connection.Update(entity);
+            return await _connection.UpdateAsync(entity);
         }
     }
 }

@@ -2,6 +2,7 @@
 using Firebase.Database.Query;
 using PS.Core.Interfaces;
 using PS.Core.Models;
+using PS.Infrastructure.Data;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -16,7 +17,7 @@ namespace PS.Infrastructure.Repositories
 
         public UsuarioFirebaseService()
         {
-            _firebaseClient = new FirebaseClient("https://petscannerdb-default-rtdb.firebaseio.com/");
+            _firebaseClient = new FirebaseClient(FirebaseConfig.BaseUrl);
         }
 
         public async Task DeleteUsuarioAsync(string id)

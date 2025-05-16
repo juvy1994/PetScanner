@@ -12,36 +12,37 @@ namespace PS.Infrastructure.Repositories
 {
     public class UsuarioRepository : BaseRepository<UsuarioDTO>, IUsuarioRepository
     {
-        public UsuarioRepository(SQLiteConnection connection) : base(connection)
+        public UsuarioRepository(SQLiteAsyncConnection connection) : base(connection)
         {
         }
 
-        public int Add(UsuarioModel entity)
+        public async Task<int> AddAsync(UsuarioModel entity)
         {
             var dto = UsuarioDTO.FromModel(entity);
-            return base.Add(dto);
+            return await base.AddAsync(dto);
         }
 
-        public int Delete(UsuarioModel entity)
+        public async Task<int> DeleteAsync(UsuarioModel entity)
         {
             var dto = UsuarioDTO.FromModel(entity);
-            return base.Delete(dto);
+            return await base.DeleteAsync(dto);
         }
 
-        public int Update(UsuarioModel entity)
+        public async Task<int> UpdateAsync(UsuarioModel entity)
         {
             var dto = UsuarioDTO.FromModel(entity);
-            return base.Update(dto);
+            return await base.UpdateAsync(dto);
         }
 
-        List<UsuarioModel> IBaseRepository<UsuarioModel>.GetAll()
+        async Task<List<UsuarioModel>> IBaseRepository<UsuarioModel>.GetAllAsync()
         {
-            return base.GetAll().Select(dto => dto.ToModel()).ToList();
+            var dtos = await base.GetAllAsync();
+            return dtos.Select(dto => dto.ToModel()).ToList();
         }
 
-        UsuarioModel IBaseRepository<UsuarioModel>.GetById(string id)
+        async Task<UsuarioModel> IBaseRepository<UsuarioModel>.GetByIdAsync(string id)
         {
-            var dto = base.GetById(id);
+            var dto = await base.GetByIdAsync(id);
             return dto?.ToModel();
         }
     }

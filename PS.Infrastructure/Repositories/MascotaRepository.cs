@@ -12,45 +12,46 @@ namespace PS.Infrastructure.Repositories
 {
     public class MascotaRepository : BaseRepository<MascotaDTO>, IMascotaRepository
     {
-        public MascotaRepository(SQLiteConnection connection) : base(connection)
+        public MascotaRepository(SQLiteAsyncConnection connection) : base(connection)
         {
         }
 
-        public int Add(MascotaModel entity)
+        public async Task<int> AddAsync(MascotaModel entity)
         {
             var dto = MascotaDTO.FromModel(entity);
-            return base.Add(dto);
+            return await base.AddAsync(dto);
         }
 
-        public int Delete(MascotaModel entity)
+        public async Task<int> DeleteAsync(MascotaModel entity)
         {
             var dto = MascotaDTO.FromModel(entity);
-            return base.Delete(dto);
+            return await base.DeleteAsync(dto);
         }
 
-        public List<MascotaModel> GetByUsuarioId(string usuarioId)
+        public async Task<List<MascotaModel>> GetByUsuarioIdAsync(string usuarioId)
         {
-            var dtos = _connection.Table<MascotaDTO>()
-                         .Where(m => m.UsuarioId == usuarioId)
-                         .ToList();
+            var dtos = await _connection.Table<MascotaDTO>()
+                                        .Where(m => m.UsuarioId == usuarioId)
+                                        .ToListAsync();
 
             return dtos.Select(dto => dto.ToModel()).ToList();
         }
 
-        public int Update(MascotaModel entity)
+        public async Task<int> UpdateAsync(MascotaModel entity)
         {
             var dto = MascotaDTO.FromModel(entity);
-            return base.Update(dto);
+            return await base.UpdateAsync(dto);
         }
 
-        List<MascotaModel> IBaseRepository<MascotaModel>.GetAll()
+        async Task<List<MascotaModel>> IBaseRepository<MascotaModel>.GetAllAsync()
         {
-            return base.GetAll().Select(dto => dto.ToModel()).ToList();
+            var dtos = await base.GetAllAsync();
+            return dtos.Select(dto => dto.ToModel()).ToList();
         }
 
-        MascotaModel IBaseRepository<MascotaModel>.GetById(string id)
+        async Task<MascotaModel> IBaseRepository<MascotaModel>.GetByIdAsync(string id)
         {
-            var dto = base.GetById(id);
+            var dto = await base.GetByIdAsync(id);
             return dto?.ToModel();
         }
     }

@@ -8,10 +8,10 @@ namespace PS.Core.Interfaces
 {
     public interface IBaseRepository<T>
     {
-        List<T> GetAll();
-        T GetById(string id);
-        int Add(T entity);
-        int Update(T entity);
-        int Delete(T entity);
+        Task<List<T>> GetAllAsync();
+        Task<T> GetByIdAsync(string id);
+        Task<int> AddAsync(T entity);
+        Task<int> UpdateAsync(T entity);
+        Task<int> DeleteAsync(T entity);
     }
 }
