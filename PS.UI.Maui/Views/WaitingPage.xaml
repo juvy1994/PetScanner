@@ -11,7 +11,9 @@
             HorizontalOptions="Center" 
             Style="{StaticResource LblTitulo}"/>
         
-        <Image Grid.Row="1"
+        <Image 
+            x:Name="imgCargando"
+            Grid.Row="1"
                Grid.ColumnSpan="2"
                Source="imgvacia.png"
                Style="{StaticResource imgBusqueda}"/>
