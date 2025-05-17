@@ -19,12 +19,13 @@
                Style="{StaticResource imgBusqueda}"/>
         
         <ActivityIndicator IsRunning="true"
+                           IsVisible="True"
                            Style="{StaticResource RuedaGiratoria}"/>
-        
+        <!--
         <Button x:Name="btnResult"
                 Text="Ver Resultado"
                 Clicked="btnResult_Clicked"
-                Style="{StaticResource Botones}"/>
+                Style="{StaticResource Botones}"/>-->
     </VerticalStackLayout>
     
 </ContentPage>

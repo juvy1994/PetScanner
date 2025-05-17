@@ -1,4 +1,5 @@
-﻿using Microsoft.Extensions.DependencyInjection;
+﻿
+using Microsoft.Extensions.DependencyInjection;
 using PS.Core.Models;
 using PS.UI.Maui.ViewModels;
 
@@ -59,9 +60,9 @@ public partial class DetailPage : ContentPage
                 CuidadosEspecialesEjercicio = lblEjercicio.Text,
                 CuidadosEspecialesSocializacion = lblSocializacion.Text,
 
-                EnfermedadNombre = lblNombreEnfermedad.Text,
-                EnfermedadDescripcion = lblDescripcionEnfermedad.Text,
-                EnfermedadPrevencion = lblPrevencionEnfermedad.Text,
+                //EnfermedadNombre = lblNombreEnfermedad.Text,
+                //EnfermedadDescripcion = lblDescripcionEnfermedad.Text,
+                //EnfermedadPrevencion = lblPrevencionEnfermedad.Text,
 
                 UrlImage = "img.jpg", // Por ahora fija o l�gica personalizada
                 UsuarioId = "Id-01", // Reemplazar por el usuario actual
@@ -81,5 +82,25 @@ public partial class DetailPage : ContentPage
         {
             await DisplayAlert("Error", $"Ocurri� un error: {ex.Message}", "OK");
         }
+    }
+
+    public void SetResultado(PetBreedInfoDto dto)
+    {
+        lblEspecie.Text = dto.especie;
+        lblNombreRaza.Text = dto.nombre_raza;
+        lblOrigen.Text = dto.origen;
+        lblComportamiento.Text = dto.comportamiento;
+        lblTamanio.Text = dto.caracteristicas_fisicas.tamano;
+        lblPeso.Text = dto.caracteristicas_fisicas.peso;
+        lblEsperanzaVida.Text = dto.caracteristicas_fisicas.esperanza_vida;
+        lblPelaje.Text = dto.caracteristicas_fisicas.pelaje;
+        lblRecomendada.Text = dto.alimentacion.tipo_recomendada;
+        lblPorciones.Text = dto.alimentacion.porciones;
+        lblFrecuencia.Text = dto.alimentacion.frecuencia;
+        lblEjercicio.Text = dto.cuidados_especiales.ejercicio;
+        lblSocializacion.Text = dto.cuidados_especiales.socializacion;
+        lstEnfermedades.ItemsSource = dto.enfermedades_comunes;
+        imgResultado.Source = string.IsNullOrEmpty(dto.UrlImage) ? "imgvacia.png" : dto.UrlImage;
+
     }
 }

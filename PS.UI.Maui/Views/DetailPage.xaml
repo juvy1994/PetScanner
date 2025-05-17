@@ -13,7 +13,8 @@
                 HorizontalOptions="Center"
                 Style="{StaticResource LblTitulo}"/>
 
-            <Image  Source="imgvacia.png"
+            <Image  x:Name="imgResultado"
+                    Source="imgvacia.png"
                     Style="{StaticResource imgBusqueda}"/>
 
             <Label  Text="Datos Generales"
@@ -25,6 +26,7 @@
                     <RowDefinition></RowDefinition>
                 </Grid.RowDefinitions>
                 <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
                     <ColumnDefinition/>
                     <ColumnDefinition/>
                     <ColumnDefinition/>
@@ -46,6 +48,11 @@
                         Grid.Row="0"
                         Grid.Column="2"
                         Style="{StaticResource lblCabeceraDetalle}">
+                </Label>
+                <Label  Text="Comportamiento"
+                        Grid.Row="0"
+                        Grid.Column="3"
+                        Style="{StaticResource lblCabeceraDetalle}">    
                 </Label>
 
                 <!--CONTENIDO-->
@@ -70,6 +77,12 @@
                         Grid.Column="2"
                         Style="{StaticResource lblContenidoDetalle}">
                 </Label>
+                <Label  x:Name="lblComportamiento"
+                        Text="Lorem Ipsum is simply dummy"
+                        Grid.Row="1"
+                        Grid.Column="3"
+                        Style="{StaticResource lblContenidoDetalle}"> 
+                </Label>    
 
             </Grid>
 
@@ -276,8 +289,39 @@
                         Style="{StaticResource lblCabeceraDetalle}">
                 </Label>
 
-                <!--CONTENIDO-->
+                <CollectionView x:Name="lstEnfermedades" 
+                                 ItemsLayout="VerticalList"
+                                 Margin="10,0"
+                                 Grid.Row="1"
+                                 Grid.Column="0"
+                                 Grid.ColumnSpan="3">       
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate>
+                            <Frame>
+                                <ScrollView Orientation="Horizontal">
+                                    <HorizontalStackLayout>
+                                        <VerticalStackLayout>
+                                            <Label Text="Nombre:"/>
+                                            <Label Text="{Binding nombre}" />
+                                        </VerticalStackLayout>
 
+                                        <VerticalStackLayout>
+                                            <Label Text="Descripción:"/>
+                                            <Label Text="{Binding descripcion}" />
+                                        </VerticalStackLayout>
+
+                                        <VerticalStackLayout>
+                                            <Label Text="Prevención:"/>
+                                            <Label Text="{Binding prevencion}" />
+                                        </VerticalStackLayout>
+                                    </HorizontalStackLayout>
+                                </ScrollView>
+                            </Frame>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+                <!--CONTENIDO-->
+                 <!--
                 <Label  x:Name="lblNombreEnfermedad"
                         Text="Lorem Ipsum is simply dummy text of the printing and typesetting industry."
                         Grid.Row="1"
@@ -298,9 +342,9 @@
                         Grid.Column="2"
                         Style="{StaticResource lblContenidoDetalle}">
                 </Label>
-
+                 -->
             </Grid>
-
+       
             <Grid Style="{StaticResource gridDetalles}">
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition/>

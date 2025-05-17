@@ -47,6 +47,9 @@ namespace PS.UI.Maui
 
             builder.Services.AddTransient<DetailViewModel>();
             builder.Services.AddTransient<HistoryViewModel>();
+            builder.Services.AddTransient<WaitingViewModel>();
+
+            builder.Services.AddSingleton<HttpClienteService>();
 
 #if DEBUG
             builder.Logging.AddDebug();
