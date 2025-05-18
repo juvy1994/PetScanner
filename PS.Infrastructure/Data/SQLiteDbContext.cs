@@ -19,6 +19,7 @@ namespace PS.Infrastructure.Data
             _connection = new SQLiteAsyncConnection(dbPath);
             _connection.CreateTableAsync<UsuarioModel>().Wait();
             _connection.CreateTableAsync<MascotaModel>().Wait();
+            _connection.CreateTableAsync<EnfermedadComunModel>().Wait();
         }
     }
 }

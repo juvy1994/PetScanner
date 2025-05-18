@@ -12,19 +12,27 @@ namespace PS.UI.Maui.Services
     {
         private readonly IUsuarioRepository _usuarioRepository;
         private readonly IMascotaRepository _mascotaRepository;
+        private readonly IEnfermedadComunRepository _enfermedadComunRepository;
+
         private readonly IUsuarioFirebaseService _usuarioFirebaseService;
         private readonly IMascotaFirebaseService _mascotaFirebaseService;
+        private readonly IEnfermedadComunFirebaseService _enfermedadComunFirebaseService;
+
 
         public SyncService(
             IUsuarioRepository usuarioRepository,
             IMascotaRepository mascotaRepository,
             IUsuarioFirebaseService usuarioFirebaseService,
-            IMascotaFirebaseService mascotaFirebaseService)
+            IMascotaFirebaseService mascotaFirebaseService,
+            IEnfermedadComunRepository enfermedadComunRepository,
+            IEnfermedadComunFirebaseService enfermeadadComunFirebaseService)
         {
             _usuarioRepository = usuarioRepository;
             _mascotaRepository = mascotaRepository;
             _usuarioFirebaseService = usuarioFirebaseService;
             _mascotaFirebaseService = mascotaFirebaseService;
+            _enfermedadComunRepository = enfermedadComunRepository;
+            _enfermedadComunFirebaseService = enfermeadadComunFirebaseService;
         }
 
         public async Task SincronizarUsuariosAsync()
@@ -36,7 +44,7 @@ namespace PS.UI.Maui.Services
 
             foreach (var usuario in noSincronizados)
             {
-                await _usuarioFirebaseService.SaveUsuarioAsync(usuario);
+                await _usuarioFirebaseService.SaveAsync(usuario);
 
                 usuario.Sincronizado = true;
                 await _usuarioRepository.UpdateAsync(usuario);
@@ -53,12 +61,30 @@ namespace PS.UI.Maui.Services
 
             foreach (var mascota in noSincronizadas)
             {
-                await _mascotaFirebaseService.SaveMascotaAsync(mascota);
+                await _mascotaFirebaseService.SaveAsync(mascota);
 
                 mascota.Sincronizado = true;
                 await _mascotaRepository.UpdateAsync(mascota);
             }
         }
+
+        public async Task SincronizarEnfermedadComunAsync()
+        {
+            if (!await ConnectivityInternet()) return;
+
+            var locales = await _enfermedadComunRepository.GetAllAsync();
+            var noSincronizadas = locales.Where(e => !e.Sincronizado).ToList();
+
+
+            foreach (var enfermedadComun in noSincronizadas)
+            {
+                await _enfermedadComunFirebaseService.SaveAsync(enfermedadComun);
+
+                enfermedadComun.Sincronizado = true;
+                await _enfermedadComunRepository.UpdateAsync(enfermedadComun);
+            }
+        }
+
 
         private async Task<bool> ConnectivityInternet()
         {
@@ -69,6 +95,13 @@ namespace PS.UI.Maui.Services
                 return false;
             }
             return true;
+        }
+
+        public async Task SincronizarTodoAsync()
+        {
+            await SincronizarUsuariosAsync();
+            await SincronizarMascotasAsync();
+            await SincronizarEnfermedadComunAsync();
         }
     }
 }

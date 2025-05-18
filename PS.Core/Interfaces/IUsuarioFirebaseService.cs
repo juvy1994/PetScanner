@@ -7,10 +7,11 @@ using System.Threading.Tasks;
 
 namespace PS.Core.Interfaces
 {
-    public interface IUsuarioFirebaseService
-    {
+    public interface IUsuarioFirebaseService : IBaseFirebaseService<UsuarioModel>
+    {   /*
         Task<List<UsuarioModel>> GetUsuariosAsync();
         Task SaveUsuarioAsync(UsuarioModel usuario);
         Task DeleteUsuarioAsync(string id);
+        */
     }
 }

@@ -23,9 +23,7 @@ namespace PS.Infrastructure.DTOs
         public string AlimentacionFrecuencia { get; set; }
         public string CuidadosEspecialesEjercicio { get; set; }
         public string CuidadosEspecialesSocializacion { get; set; }
-        public string EnfermedadNombre { get; set; }
-        public string EnfermedadDescripcion { get; set; }
-        public string EnfermedadPrevencion { get; set; }
+        public string RutaImagenLocal { get; set; }
         public string UrlImage { get; set; }
         public bool Estado { get; set; }
         public bool Sincronizado { get; set; }
@@ -48,9 +46,7 @@ namespace PS.Infrastructure.DTOs
             AlimentacionFrecuencia = this.AlimentacionFrecuencia,
             CuidadosEspecialesEjercicio = this.CuidadosEspecialesEjercicio,
             CuidadosEspecialesSocializacion = this.CuidadosEspecialesSocializacion,
-            EnfermedadNombre = this.EnfermedadNombre,
-            EnfermedadDescripcion = this.EnfermedadDescripcion,
-            EnfermedadPrevencion = this.EnfermedadPrevencion,
+            RutaImagenLocal = this.RutaImagenLocal,
             UrlImage = this.UrlImage,
             Estado = this.Estado,
             Sincronizado = this.Sincronizado,
@@ -74,9 +70,7 @@ namespace PS.Infrastructure.DTOs
             AlimentacionFrecuencia = model.AlimentacionFrecuencia,
             CuidadosEspecialesEjercicio = model.CuidadosEspecialesEjercicio,
             CuidadosEspecialesSocializacion = model.CuidadosEspecialesSocializacion,
-            EnfermedadNombre = model.EnfermedadNombre,
-            EnfermedadDescripcion = model.EnfermedadDescripcion,
-            EnfermedadPrevencion = model.EnfermedadPrevencion,
+            RutaImagenLocal = model.RutaImagenLocal,
             UrlImage = model.UrlImage,
             Estado = model.Estado,
             Sincronizado = model.Sincronizado,

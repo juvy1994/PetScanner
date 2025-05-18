@@ -21,9 +21,7 @@ namespace PS.Core.Models
         public string AlimentacionFrecuencia { get; set; }
         public string CuidadosEspecialesEjercicio { get; set; }
         public string CuidadosEspecialesSocializacion { get; set; }
-        public string EnfermedadNombre { get; set; }
-        public string EnfermedadDescripcion { get; set; }
-        public string EnfermedadPrevencion { get; set; }
+        public string RutaImagenLocal { get; set; }
         public string UrlImage { get; set; }
         public bool Estado { get; set; }
         public bool Sincronizado { get; set; }

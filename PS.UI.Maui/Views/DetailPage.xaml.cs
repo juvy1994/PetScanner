@@ -22,28 +22,20 @@ public partial class DetailPage : ContentPage
         };
     }
 
-    private void btnKeep_Clicked(object sender, EventArgs e)
-    {
-        //Navigation.PushAsync(new Views.HistoryPage());
-    }
-
-    private void btnShare_Clicked(object sender, EventArgs e)
-    {
-        //Navigation.PushAsync(new Views.LoadPage());
-    }
-
-    private void btnSearch_Clicked(object sender, EventArgs e)
-    {
-       // Navigation.PushAsync(new Views.LoadPage());
-    }
-
     private async void btnGuardar_Clicked(object sender, EventArgs e)
     {
+        string mascotaId = "PET-SCAN" + Guid.NewGuid().ToString();
+        string url = null;
+        if (imgResultado.Source is UriImageSource uriImage)
+        {
+            url = uriImage.Uri.ToString();
+        }
+
         try
         {
             var mascota = new MascotaModel
             {
-                Id = Guid.NewGuid().ToString(),
+                Id = mascotaId,
                 Nombre = lblNombreRaza.Text,
                 Especie = lblEspecie.Text,
                 Origen = lblOrigen.Text,
@@ -60,28 +52,47 @@ public partial class DetailPage : ContentPage
                 CuidadosEspecialesEjercicio = lblEjercicio.Text,
                 CuidadosEspecialesSocializacion = lblSocializacion.Text,
 
-                //EnfermedadNombre = lblNombreEnfermedad.Text,
-                //EnfermedadDescripcion = lblDescripcionEnfermedad.Text,
-                //EnfermedadPrevencion = lblPrevencionEnfermedad.Text,
-
-                UrlImage = "img.jpg", // Por ahora fija o l�gica personalizada
-                UsuarioId = "Id-01", // Reemplazar por el usuario actual
+                UrlImage = url,
+                RutaImagenLocal = _viewModel.rutaImagenLocal,
+                UsuarioId = "Id-01",
                 Estado = true,
                 Sincronizado = false
             };
-
             await _viewModel.GuardarMascotaAsync(mascota);
+
+            var enfermedades = cvEnfermedadesComunes.ItemsSource.Cast<EnfermedadComunModel>().ToList();
+
+            foreach (var enf in enfermedades)
+            {
+                EnfermedadComunModel enfermedad = new EnfermedadComunModel
+                {
+                    Id = "ENF-"+Guid.NewGuid().ToString(),
+                    Nombre = enf.Nombre,
+                    Descripcion = enf.Descripcion,
+                    Prevencion = enf.Prevencion,
+                    MascotaId = mascota.Id,
+                    Estado = true,
+                    Sincronizado = false
+                };
+                await _viewModel.GuardarEnferdadComunAsync(enfermedad);
+            }
 
             await DisplayAlert("Guardado", "Mascota guardada correctamente", "OK");
 
             var nextPage = _serviceProvider.GetRequiredService<HistoryPage>();
-            await Navigation.PushAsync(nextPage);
-            // Navigation.PushAsync(new Views.HistoryPage());
+            await Navigation.PushAsync(nextPage);      
         }
         catch (Exception ex)
         {
             await DisplayAlert("Error", $"Ocurri� un error: {ex.Message}", "OK");
         }
+    }
+
+    private async void btnSearch_Clicked(object sender, EventArgs e)
+    {
+
+        var nextPage = _serviceProvider.GetRequiredService<LoadPage>();
+        await Navigation.PushAsync(nextPage);
     }
 
     public void SetResultado(PetBreedInfoDto dto)
@@ -99,8 +110,16 @@ public partial class DetailPage : ContentPage
         lblFrecuencia.Text = dto.alimentacion.frecuencia;
         lblEjercicio.Text = dto.cuidados_especiales.ejercicio;
         lblSocializacion.Text = dto.cuidados_especiales.socializacion;
-        lstEnfermedades.ItemsSource = dto.enfermedades_comunes;
-        imgResultado.Source = string.IsNullOrEmpty(dto.UrlImage) ? "imgvacia.png" : dto.UrlImage;
+        var enfermedades = dto.enfermedades_comunes.Select(e => new EnfermedadComunModel
+        {
+            Nombre = e.nombre,
+            Descripcion = e.descripcion,
+            Prevencion = e.prevencion,
+            Estado = true,
+            Sincronizado = false
+        }).ToList();
 
+        cvEnfermedadesComunes.ItemsSource = enfermedades;
+        imgResultado.Source = string.IsNullOrEmpty(dto.UrlImage) ? "imgvacia.png" : dto.UrlImage;
     }
 }

@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PS.Infrastructure.Repositories
+namespace PS.Infrastructure.Repositories.SQLite
 {
     public class BaseRepository<T> : IBaseRepository<T> where T : new()
     {

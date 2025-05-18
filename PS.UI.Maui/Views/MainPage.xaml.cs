@@ -14,6 +14,5 @@ public partial class MainPage : ContentPage
     {
         var nextPage = _serviceProvider.GetRequiredService<LoadPage>();
         Navigation.PushAsync(nextPage);
-        //Navigation.PushAsync(new Views.LoadPage());
     }
 }

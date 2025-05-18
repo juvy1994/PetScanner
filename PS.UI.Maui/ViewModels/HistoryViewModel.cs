@@ -13,11 +13,17 @@ namespace PS.UI.Maui.ViewModels
         private readonly IMascotaRepository _mascotaRepository;
         private readonly IMascotaFirebaseService _mascotaFirebaseService;
 
-        public HistoryViewModel(IMascotaRepository mascotaRepository, IMascotaFirebaseService firebaseService)
-        {
+        private readonly IEnfermedadComunRepository _enfermedadComunRepository;
+        private readonly IEnfermedadComunFirebaseService _enfermedadComunFirebaseService;
 
+        public HistoryViewModel(IMascotaRepository mascotaRepository, IMascotaFirebaseService mascotaFirebaseService, 
+            IEnfermedadComunRepository enfermedadComunRepository, IEnfermedadComunFirebaseService enfermedadComunFirebaseService)
+        {
             _mascotaRepository = mascotaRepository;
-            _mascotaFirebaseService = firebaseService;
+            _mascotaFirebaseService = mascotaFirebaseService;
+
+            _enfermedadComunRepository = enfermedadComunRepository;
+            _enfermedadComunFirebaseService = enfermedadComunFirebaseService;
         }
 
         public async Task<List<MascotaModel>> GetByIdUsuario(string usuarioId)
@@ -34,8 +40,27 @@ namespace PS.UI.Maui.ViewModels
                 if (mascotaModel == null || string.IsNullOrEmpty(mascotaModel.Id))
                     return 0;
 
+
+                var enfermedades = await _enfermedadComunRepository.GetByMascotaIdAsync(mascotaModel.Id);
+                
+
+                foreach (var enf in enfermedades) {
+
+                    var listEnfermedades = new EnfermedadComunModel
+                    {
+                        Id = enf.Id,
+                        Nombre = enf.Nombre,
+                        Descripcion = enf.Descripcion,
+                        Prevencion = enf.Prevencion,
+                        Estado = enf.Estado,
+                        Sincronizado = enf.Sincronizado
+                    };
+                    await _enfermedadComunFirebaseService.DeleteAsync(enf.Id);
+                    await _enfermedadComunRepository.DeleteAsync(listEnfermedades);
+                }
+
                 await _mascotaRepository.DeleteAsync(mascotaModel);
-                await _mascotaFirebaseService.DeleteMascotaAsync(mascotaModel.Id);
+                await _mascotaFirebaseService.DeleteAsync(mascotaModel.Id);
 
                 return 1;
             }

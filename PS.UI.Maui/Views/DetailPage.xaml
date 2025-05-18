@@ -289,7 +289,7 @@
                         Style="{StaticResource lblCabeceraDetalle}">
                 </Label>
 
-                <CollectionView x:Name="lstEnfermedades" 
+                <CollectionView x:Name="cvEnfermedadesComunes" 
                                  ItemsLayout="VerticalList"
                                  Margin="10,0"
                                  Grid.Row="1"
@@ -302,17 +302,17 @@
                                     <HorizontalStackLayout>
                                         <VerticalStackLayout>
                                             <Label Text="Nombre:"/>
-                                            <Label Text="{Binding nombre}" />
+                                            <Label Text="{Binding Nombre}" />
                                         </VerticalStackLayout>
 
                                         <VerticalStackLayout>
                                             <Label Text="Descripción:"/>
-                                            <Label Text="{Binding descripcion}" />
+                                            <Label Text="{Binding Descripcion}" />
                                         </VerticalStackLayout>
 
                                         <VerticalStackLayout>
                                             <Label Text="Prevención:"/>
-                                            <Label Text="{Binding prevencion}" />
+                                            <Label Text="{Binding Prevencion}" />
                                         </VerticalStackLayout>
                                     </HorizontalStackLayout>
                                 </ScrollView>
