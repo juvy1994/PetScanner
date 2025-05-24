@@ -269,7 +269,7 @@
                     <ColumnDefinition/>
                 </Grid.ColumnDefinitions>
 
-                <Label  Text="Nombre"
+                <!--<Label  Text="Nombre"
              Grid.Row="0"
              Grid.Column="0"
              Style="{StaticResource lblCabeceraDetalle}">
@@ -285,10 +285,9 @@
              Grid.Row="0"
              Grid.Column="2"
              Style="{StaticResource lblCabeceraDetalle}">
-                </Label>
+                </Label>-->
 
                 <CollectionView x:Name="cvEnfermedadesComunes" 
-                      HeightRequest="200"
                       ItemsLayout="VerticalList"
                       Margin="10,0"
                       Grid.Row="1"
@@ -296,24 +295,24 @@
                       Grid.ColumnSpan="3">
                     <CollectionView.ItemTemplate>
                         <DataTemplate>
-                            <Frame>
-                                <ScrollView Orientation="Horizontal">
-                                    <HorizontalStackLayout>
+                            <Frame BackgroundColor="#F9F6F2" BorderColor="Black">
+                                <ScrollView Orientation="Vertical">
+                                    <VerticalStackLayout Spacing="10" Padding="10">
                                         <VerticalStackLayout>
-                                            <Label Text="Nombre:"/>
-                                            <Label Text="{Binding Nombre}" />
+                                            <Label Text="Nombre:" Style="{StaticResource lblCv}"/>
+                                            <Label Text="{Binding Nombre}" Style="{StaticResource lblCvCon}"  />
                                         </VerticalStackLayout>
 
                                         <VerticalStackLayout>
-                                            <Label Text="Descripción:"/>
-                                            <Label Text="{Binding Descripcion}" />
+                                            <Label Text="Descripción:" Style="{StaticResource lblCv}"/>
+                                            <Label Text="{Binding Descripcion}" Style="{StaticResource lblCvCon}"  />
                                         </VerticalStackLayout>
 
                                         <VerticalStackLayout>
-                                            <Label Text="Prevención:"/>
-                                            <Label Text="{Binding Prevencion}" />
+                                            <Label Text="Prevención:" Style="{StaticResource lblCv}"/>
+                                            <Label Text="{Binding Prevencion}" Style="{StaticResource lblCvCon}"  />
                                         </VerticalStackLayout>
-                                    </HorizontalStackLayout>
+                                    </VerticalStackLayout>
                                 </ScrollView>
                             </Frame>
                         </DataTemplate>

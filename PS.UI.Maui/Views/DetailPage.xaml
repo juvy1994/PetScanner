@@ -52,7 +52,7 @@
                 <Label  Text="Comportamiento"
                         Grid.Row="0"
                         Grid.Column="3"
-                        Style="{StaticResource lblCabeceraDetalle}">    
+                        Style="{StaticResource lblCabeceraDetalle}">
                 </Label>
 
                 <!--CONTENIDO-->
@@ -81,8 +81,8 @@
                         Text="Lorem Ipsum is simply dummy"
                         Grid.Row="1"
                         Grid.Column="3"
-                        Style="{StaticResource lblContenidoDetalle}"> 
-                </Label>    
+                        Style="{StaticResource lblContenidoDetalle}">
+                </Label>
 
             </Grid>
 
@@ -254,7 +254,7 @@
                         Grid.Column="1"
                         Style="{StaticResource lblContenidoDetalle}">
                 </Label>
-                
+
             </Grid>
 
             <Label  Text="Enfermedades comunes"
@@ -271,7 +271,7 @@
                     <ColumnDefinition/>
                 </Grid.ColumnDefinitions>
 
-                <Label  Text="Nombre"
+                <!--<Label  Text="Nombre"
                         Grid.Row="0"
                         Grid.Column="0"
                         Style="{StaticResource lblCabeceraDetalle}">
@@ -287,41 +287,41 @@
                         Grid.Row="0"
                         Grid.Column="2"
                         Style="{StaticResource lblCabeceraDetalle}">
-                </Label>
+                </Label>-->
 
                 <CollectionView x:Name="cvEnfermedadesComunes" 
                                  ItemsLayout="VerticalList"
                                  Margin="10,0"
                                  Grid.Row="1"
                                  Grid.Column="0"
-                                 Grid.ColumnSpan="3">       
+                                 Grid.ColumnSpan="3">
                     <CollectionView.ItemTemplate>
                         <DataTemplate>
-                            <Frame>
-                                <ScrollView Orientation="Horizontal">
-                                    <HorizontalStackLayout>
+                            <Frame BackgroundColor="#F9F6F2" BorderColor="Black">
+                                <ScrollView Orientation="Vertical">
+                                    <VerticalStackLayout Spacing="10" Padding="10">
                                         <VerticalStackLayout>
-                                            <Label Text="Nombre:"/>
-                                            <Label Text="{Binding Nombre}" />
+                                            <Label Text="Nombre:" Style="{StaticResource lblCv}"/>
+                                            <Label Text="{Binding Nombre}" Style="{StaticResource lblCvCon}" />
                                         </VerticalStackLayout>
 
                                         <VerticalStackLayout>
-                                            <Label Text="Descripción:"/>
-                                            <Label Text="{Binding Descripcion}" />
+                                            <Label Text="Descripción:" Style="{StaticResource lblCv}"/>
+                                            <Label Text="{Binding Descripcion}" Style="{StaticResource lblCvCon}" />
                                         </VerticalStackLayout>
 
                                         <VerticalStackLayout>
-                                            <Label Text="Prevención:"/>
-                                            <Label Text="{Binding Prevencion}" />
+                                            <Label Text="Prevención:" Style="{StaticResource lblCv}"/>
+                                            <Label Text="{Binding Prevencion}" Style="{StaticResource lblCvCon}" />
                                         </VerticalStackLayout>
-                                    </HorizontalStackLayout>
+                                    </VerticalStackLayout>
                                 </ScrollView>
                             </Frame>
                         </DataTemplate>
                     </CollectionView.ItemTemplate>
                 </CollectionView>
                 <!--CONTENIDO-->
-                 <!--
+                <!--
                 <Label  x:Name="lblNombreEnfermedad"
                         Text="Lorem Ipsum is simply dummy text of the printing and typesetting industry."
                         Grid.Row="1"
@@ -344,7 +344,7 @@
                 </Label>
                  -->
             </Grid>
-       
+
             <Grid Style="{StaticResource gridDetalles}">
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition/>

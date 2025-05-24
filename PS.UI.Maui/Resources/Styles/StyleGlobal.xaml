@@ -152,4 +152,25 @@
         <Setter Property="BorderColor" Value="Black" />
     </Style>
 
+    <!--LABELS DENTRO DE COLLECTION VIEW-->
+    <Style x:Key="lblCv" TargetType="Label">
+        <Setter Property="FontSize" Value="12" />
+        <Setter Property="TextColor" Value="Black" />
+        <Setter Property="HorizontalOptions" Value="Start" />
+        <Setter Property="VerticalOptions" Value="Center" />
+        <Setter Property="FontFamily" Value="Helvetica" />
+        <Setter Property="FontAttributes" Value="Bold" />
+        <Setter Property="Margin" Value="0,0,0,10"></Setter>
+    </Style>
+
+    <Style x:Key="lblCvCon" TargetType="Label">
+        <Setter Property="FontSize" Value="12" />
+        <Setter Property="TextColor" Value="Black" />
+        <Setter Property="FontFamily" Value="Helvetica" />
+        <Setter Property="Margin" Value="0,0,0,10"></Setter>
+        <Setter Property="HorizontalTextAlignment" Value="Start"></Setter>
+        <Setter Property="VerticalTextAlignment" Value="Start"></Setter>
+    </Style>
+
+
 </ResourceDictionary>
